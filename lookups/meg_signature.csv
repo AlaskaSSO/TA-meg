@@ -1,0 +1,2451 @@
+signature_id,signature
+377-10000,Gateway application status
+377-1000046,Gateway application status - Application has started
+377-1000049,Gateway application status - Application was terminated due to an invalid argument
+377-1000050,Gateway application status - Argument was missing a value
+377-1000051,Gateway application status - Unable to create a process
+377-1000057,Gateway application status - Unable to set the process to run as the specific user
+377-1000058,Gateway application status - Unable to set the process to run as the specific group
+377-1000056,Gateway application status - Unable to obtain the user identification
+377-1000052,Gateway application status - Network application was started
+377-1000053,Gateway application status - Network application has finished
+377-1000054,Gateway application status - Process that listens for protocol requests was started
+377-1000055,Gateway application status - Process that listens for protocol requests has terminated
+377-1000071,Gateway application status - Process has handled its maximum number of connections
+377-1000070,Gateway application status - Process exceeded its maximum memory size
+377-1000059,Gateway application status - Process that listens for protocol requests cannot start
+377-10001,Gateway network listener
+377-1000163,Gateway network listener - Attempting to create a network listener port
+377-1000160,Gateway network listener - Unable to create a network listener port
+377-1000161,Gateway network listener - Successfully created a network listener port
+377-1000162,Gateway network listener - Listener port was shutdown
+377-10002,Failed to create connection
+377-1000264,Failed to create connection - Unable to create a new connection object
+377-10003,Connection status
+377-1000365,Connection status - New connection data set up
+377-1000366,Connection status - Connection queued for processing
+377-1000368,Connection status - Connection is being processed
+377-1000369,Connection status - Connection processing complete
+377-12000,Connection failed
+377-12000114,Connection failed - Unable to obtain network socket
+377-120006,Connection failed - Timed out
+377-120007,Connection failed - No one listening on the remote address
+377-120009,Connection failed - Network is unreachable
+377-1200010,Connection failed - Multiple routes to remote address
+377-1200011,Connection failed - Unable to resolve remote host name
+377-1200034,Connection failed - Operation now in progress
+377-1200012,Connection failed - Connection loop detected
+377-1200035,Connection failed - Connection has been closed by the remote host
+377-120008,Connection failed - The application has failed
+377-12002,Information dump
+377-1200272,Information dump - State of an object
+377-1200273,Information dump - Writing data to the network
+377-1200274,Information dump - Reading data from the network
+377-15000,Policy
+377-15000211,Policy - Message has matched multiple policies
+377-15000212,Policy - Selecting base policy. Message exceeded the maximum number of policies that can be matched
+377-15001,LDAP Query failed
+377-15001378,LDAP Query failed - Unable to get the results from the group query
+377-15001379,LDAP Query failed - Unable to get the results for an identity import
+377-15001531,LDAP Query failed - Protocol error
+377-15001532,LDAP Query failed - Time limit exceeded
+377-15001533,LDAP Query failed - Size limit exceeded
+377-15001534,LDAP Query failed - Compare false
+377-15001535,LDAP Query failed - Compare true
+377-15001536,LDAP Query failed - Authentication method not supported
+377-15001537,LDAP Query failed - Strong authentication required
+377-15001538,LDAP Query failed - Partial results and referral received
+377-15001539,LDAP Query failed - Referral
+377-15001540,LDAP Query failed - Administration limit exceeded
+377-15001541,LDAP Query failed - Critical extension is unavailable
+377-15001542,LDAP Query failed - Confidentiality required
+377-15001543,LDAP Query failed - SASL bind in progress
+377-15001544,LDAP Query failed - No such attribute
+377-15001545,LDAP Query failed - Undefined attribute type
+377-15001546,LDAP Query failed - Inappropriate matching
+377-15001547,LDAP Query failed - Constraint violation
+377-15001548,LDAP Query failed - Type or value exists
+377-15001549,LDAP Query failed - Invalid syntax
+377-15001550,LDAP Query failed - No such object
+377-15001551,LDAP Query failed - Alias problem
+377-15001552,LDAP Query failed - Invalid DN syntax
+377-15001553,LDAP Query failed - Is leaf
+377-15001554,LDAP Query failed - Alias dereference problem
+377-15001555,LDAP Query failed - Inappropriate authentication
+377-15001556,LDAP Query failed - Invalid credentials
+377-15001557,LDAP Query failed - Insufficient access
+377-15001558,LDAP Query failed - Server is busy
+377-15001530,LDAP Query failed - Operations error
+377-15001559,LDAP Query failed - Server is unavailable
+377-15001560,LDAP Query failed - Server is unwilling to perform
+377-15001561,LDAP Query failed - Loop detect
+377-15001562,LDAP Query failed - Naming violation
+377-15001563,LDAP Query failed - Object class violation
+377-15001564,LDAP Query failed - Not allowed on non-leaf
+377-15001565,LDAP Query failed - Not allowed on RDN
+377-15001566,LDAP Query failed - Already exists
+377-15001567,LDAP Query failed - No object class mods
+377-15001568,LDAP Query failed - Results too large
+377-15001569,LDAP Query failed - Affects multiple DSAS
+377-15001570,LDAP Query failed - Other
+377-15001571,LDAP Query failed - Cannot contact LDAP server
+377-15001572,LDAP Query failed - Local error
+377-15001573,LDAP Query failed - Encoding error
+377-15001574,LDAP Query failed - Decoding error
+377-15001575,LDAP Query failed - Timeout
+377-15001576,LDAP Query failed - Unknown authentication method
+377-15001577,LDAP Query failed - Search filter error
+377-15001578,LDAP Query failed - User cancelled
+377-15001579,LDAP Query failed - Parameter error
+377-15001580,LDAP Query failed - Out of memory
+377-15001581,LDAP Query failed - Connect error
+377-15001582,LDAP Query failed - Not supported
+377-15001583,LDAP Query failed - Control not found
+377-15001584,LDAP Query failed - No results returned
+377-15001585,LDAP Query failed - More results to return
+377-15001586,LDAP Query failed - Client loop
+377-15001587,LDAP Query failed - Referral limit exceeded
+377-15003,Failed to generate a list of identities
+377-15003378,Failed to generate a list of identities - Unable to get the results from the group query
+377-15003379,Failed to generate a list of identities - Unable to get the results for an identity import
+377-15007,LDAP directory synchronisation status
+377-15007764,LDAP directory synchronisation status - Directory Sync has started
+377-15007765,LDAP directory synchronisation status - Directory Sync has finished
+377-15007771,LDAP directory synchronisation status - LDAP Sync group query failed
+377-15007772,LDAP directory synchronisation status - Failed to sync the mail list
+377-15007773,LDAP directory synchronisation status - Failed to sync the web list
+377-15007774,LDAP directory synchronisation status - Failed to obtain information for an email address
+377-15007775,LDAP directory synchronisation status - Failed to obtain information for a web user
+377-15008,LDAP directory sync failed
+377-15008378,LDAP directory sync failed - Unable to get the results from the group query
+377-15008379,LDAP directory sync failed - Unable to get the results for an identity import
+377-15008531,LDAP directory sync failed - Protocol error
+377-15008532,LDAP directory sync failed - Time limit exceeded
+377-15008533,LDAP directory sync failed - Size limit exceeded
+377-15008534,LDAP directory sync failed - Compare false
+377-15008535,LDAP directory sync failed - Compare true
+377-15008536,LDAP directory sync failed - Authentication method not supported
+377-15008537,LDAP directory sync failed - Strong authentication required
+377-15008538,LDAP directory sync failed - Partial results and referral received
+377-15008539,LDAP directory sync failed - Referral
+377-15008540,LDAP directory sync failed - Administration limit exceeded
+377-15008541,LDAP directory sync failed - Critical extension is unavailable
+377-15008542,LDAP directory sync failed - Confidentiality required
+377-15008543,LDAP directory sync failed - SASL bind in progress
+377-15008544,LDAP directory sync failed - No such attribute
+377-15008545,LDAP directory sync failed - Undefined attribute type
+377-15008546,LDAP directory sync failed - Inappropriate matching
+377-15008547,LDAP directory sync failed - Constraint violation
+377-15008548,LDAP directory sync failed - Type or value exists
+377-15008549,LDAP directory sync failed - Invalid syntax
+377-15008550,LDAP directory sync failed - No such object
+377-15008551,LDAP directory sync failed - Alias problem
+377-15008552,LDAP directory sync failed - Invalid DN syntax
+377-15008553,LDAP directory sync failed - Is leaf
+377-15008554,LDAP directory sync failed - Alias dereference problem
+377-15008555,LDAP directory sync failed - Inappropriate authentication
+377-15008556,LDAP directory sync failed - Invalid credentials
+377-15008557,LDAP directory sync failed - Insufficient access
+377-15008558,LDAP directory sync failed - Server is busy
+377-15008530,LDAP directory sync failed - Operations error
+377-15008559,LDAP directory sync failed - Server is unavailable
+377-15008560,LDAP directory sync failed - Server is unwilling to perform
+377-15008561,LDAP directory sync failed - Loop detect
+377-15008562,LDAP directory sync failed - Naming violation
+377-15008563,LDAP directory sync failed - Object class violation
+377-15008564,LDAP directory sync failed - Not allowed on non-leaf
+377-15008565,LDAP directory sync failed - Not allowed on RDN
+377-15008566,LDAP directory sync failed - Already exists
+377-15008567,LDAP directory sync failed - No object class mods
+377-15008568,LDAP directory sync failed - Results too large
+377-15008569,LDAP directory sync failed - Affects multiple DSAS
+377-15008570,LDAP directory sync failed - Other
+377-15008571,LDAP directory sync failed - Cannot contact LDAP server
+377-15008572,LDAP directory sync failed - Local error
+377-15008573,LDAP directory sync failed - Encoding error
+377-15008574,LDAP directory sync failed - Decoding error
+377-15008575,LDAP directory sync failed - Timeout
+377-15008576,LDAP directory sync failed - Unknown authentication method
+377-15008577,LDAP directory sync failed - Search filter error
+377-15008578,LDAP directory sync failed - User cancelled
+377-15008579,LDAP directory sync failed - Parameter error
+377-15008580,LDAP directory sync failed - Out of memory
+377-15008581,LDAP directory sync failed - Connect error
+377-15008582,LDAP directory sync failed - Not supported
+377-15008583,LDAP directory sync failed - Control not found
+377-15008584,LDAP directory sync failed - No results returned
+377-15008585,LDAP directory sync failed - More results to return
+377-15008586,LDAP directory sync failed - Client loop
+377-15008587,LDAP directory sync failed - Referral limit exceeded
+377-16000,The proxy was in the scanner for too long - process stopped
+377-18000,Product lifetime
+377-18000403,Product lifetime - Product has reached end-of-life
+377-18000404,Product lifetime - Product is nearing end-of-life
+377-19000,Protocol conversation
+377-1900098,Protocol conversation - Attempting a connection to the onward server
+377-19000113,Protocol conversation - Unable to establish a connection to the onward server
+377-1900097,Protocol conversation - Established a connection with the onward server
+377-1900099,Protocol conversation - Client Request
+377-19000100,Protocol conversation - Appliance Request
+377-19000101,Protocol conversation - Server Response
+377-19000102,Protocol conversation - Appliance Response
+377-19000760,Protocol conversation - The undeliverable domain email was silently dropped
+377-19001,SSL certificate conversation failed
+377-19001221,SSL certificate conversation failed - No certificate available
+377-19001222,SSL certificate conversation failed - No fd connection
+377-19001223,SSL certificate conversation failed - SSL certificate verification failed on ACCEPT handshake
+377-19001224,SSL certificate conversation failed - SSL certificate verification failed on CONNECT handshake
+377-19001761,SSL certificate conversation failed - Connection certificate is revoked by the certificate authority
+377-19002,SSL certificate initialization
+377-19002226,SSL certificate initialization - Certificate loaded
+377-19003,SSL certificates initialization failed
+377-19003227,SSL certificates initialization failed - Missing certificate or key file
+377-19003228,SSL certificates initialization failed - SSL error using key file
+377-19003229,SSL certificates initialization failed - SSL error using certificate file
+377-19003230,SSL certificates initialization failed - SSL Certificate load failed
+377-19003241,SSL certificates initialization failed - SSL Certificate cipher load failed
+377-30000,HTTP request denied
+377-3000095,HTTP request denied - The verb is not permitted
+377-30000139,HTTP request denied - The request scheme is not permitted
+377-30000141,HTTP request denied - The port number is not permitted
+377-30000163,HTTP request denied - NTLM is not supported in explicit proxy mode
+377-30000164,HTTP request denied - NTLM is not supported when persistent connections are not enabled
+377-30000180,HTTP request denied - Client is not permitted to connect to this appliance
+377-30000181,HTTP request denied - Request not permitted
+377-30000345,HTTP request denied - HTML SCRIPT tags have been removed
+377-30000346,HTTP request denied - HTML APPLET tags have been removed
+377-30000347,HTTP request denied - HTML ActiveX tags have been removed
+377-30000348,HTTP request denied - Uploaded data has been altered in an unknown manner
+377-30000588,HTTP request denied - Proxy requests are forbidden
+377-30000589,HTTP request denied - Requests from the client user-agent are forbidden
+377-30000590,HTTP request denied - The content-type of the data being transferred is forbidden
+377-30000594,HTTP request denied - The data being uploaded contains forbidden content
+377-30000672,HTTP request denied - Cannot authenticate HTTP 0.9 requests. Requests denied
+377-30000701,HTTP request denied - Access to the requested type of instant messaging is forbidden
+377-30001,HTTP protocol conversation error
+377-30001121,HTTP protocol conversation error - The request header is invalid
+377-30001122,HTTP protocol conversation error - The response header is invalid
+377-30001143,HTTP protocol conversation error - The request header is too big
+377-30001144,HTTP protocol conversation error - The request header has too many header lines
+377-30001210,HTTP protocol conversation error - The URL requested from a proxy mode client does not have a path
+377-30001405,HTTP protocol conversation error - The URL requested from an explicit proxy mode client is invalid
+377-30001162,HTTP protocol conversation error - Error serving internal URL
+377-30001187,HTTP protocol conversation error - Unable to initialize the SSL sub-system
+377-30001190,HTTP protocol conversation error - The response header is too big
+377-30001191,HTTP protocol conversation error - The response header has too many header lines
+377-30001351,HTTP protocol conversation error - Data trickling aborted due to modification by scanner
+377-30001352,HTTP protocol conversation error - Data trickling aborted due to replacement by scanner
+377-30001366,HTTP protocol conversation error - There was a protocol error during the transfer of chunked data
+377-30001376,HTTP protocol conversation error - Unable to transfer SSL data
+377-30001397,HTTP protocol conversation error - Unable to send data to the client
+377-30001396,HTTP protocol conversation error - The client has closed the network conection to the appliance
+377-30001395,HTTP protocol conversation error - The conection was closed before all the expected data was received
+377-30001393,HTTP protocol conversation error - Unable to read the request body from the client
+377-30001394,HTTP protocol conversation error - Unable to send the request body to the server
+377-30002,HTTP protocol conversation success
+377-30003,FTP over HTTP protocol conversation error
+377-30003184,FTP over HTTP protocol conversation error - Unable to log on to the FTP server
+377-30003185,FTP over HTTP protocol conversation error - The FTP service is not available
+377-30003192,FTP over HTTP protocol conversation error - A line returned from the FTP server is too long
+377-30003186,FTP over HTTP protocol conversation error - The FTP download failed
+377-30003193,FTP over HTTP protocol conversation error - FTP upload failed
+377-30003367,FTP over HTTP protocol conversation error - Error reading FTP directory listing data from the server
+377-30003368,FTP over HTTP protocol conversation error - Error sending FTP directory listing data to the client
+377-30003369,FTP over HTTP protocol conversation error - Unable to send FTP command to the server
+377-30003370,FTP over HTTP protocol conversation error - Unable to read FTP response from the server
+377-30003371,FTP over HTTP protocol conversation error - FTP server has returned an unexpected response code
+377-30003372,FTP over HTTP protocol conversation error - Unable to parse the response from the FTP server
+377-30003373,FTP over HTTP protocol conversation error - Unable to parse the passive port number from the FTP server response
+377-30003374,FTP over HTTP protocol conversation error - Unable to establish an active FTP connection to the server
+377-30003375,FTP over HTTP protocol conversation error - Unable to parse the returned FTP directory listing text
+377-30003629,FTP over HTTP protocol conversation error - The passive port number from the FTP server response is forbidden
+377-30004,FTP over HTTP protocol conversation was successful
+377-30004194,FTP over HTTP protocol conversation was successful - FTP upload succeeded
+377-30005,HTTP proxy error
+377-30005392,HTTP proxy error - Input/output error
+377-30005377,HTTP proxy error - Memory allocation error
+377-30005398,HTTP proxy error - Error in download status page processing
+377-30006,HTTP proxy configuration error
+377-30006529,HTTP proxy configuration error - Unable to compile a regular expression
+377-30006643,HTTP proxy configuration error - Unable to determine the authentication broker
+377-30006660,HTTP proxy configuration error - Unable to open a required file
+377-30006661,HTTP proxy configuration error - Unable to parse the configuration information
+377-30007,Authentication action
+377-30007639,Authentication action - The client is being redirected for authorization
+377-30007644,Authentication action - Unable to parse the authorization cookie
+377-30007645,Authentication action - The authorization cookie MD5 does not match
+377-30007646,Authentication action - The authorization cookie version is invalid
+377-30007647,Authentication action - The authorization cookie has expired
+377-30007648,Authentication action - There are no cookies in the header
+377-30007649,Authentication action - There are no authorization cookies in the header
+377-30007650,Authentication action - No authorization cookies authenticated correctly
+377-30007651,Authentication action - Received redirection from authentication broker
+377-30007653,Authentication action - Error in the response from the authentication server
+377-30007654,Authentication action - Redirect to original URL after successful authorization
+377-30007655,Authentication action - Unable to handle an authentication handoff request
+377-50002,Protocol conversation error
+377-5000213,Protocol conversation error - Unrecognized Command
+377-5000214,Protocol conversation error - Duplicate HELO
+377-5000215,Protocol conversation error - Syntax Error
+377-5000216,Protocol conversation error - Duplicate MAIL FROM
+377-5000217,Protocol conversation error - MAIL FROM command was received after RCPT TO
+377-5000218,Protocol conversation error - RCPT TO command was received before MAIL FROM
+377-50002233,Protocol conversation error - STARTTLS after MAIL FROM
+377-5000233,Protocol conversation error - DATA Command received before RCPT TO
+377-5000219,Protocol conversation error - Invalid sender email address
+377-50002182,Protocol conversation error - Invalid recipient email address
+377-5000220,Protocol conversation error - From sender is postmaster
+377-5000222,Protocol conversation error - Command is not implemented
+377-50002198,Protocol conversation error - Postmaster address is invalid
+377-50002205,Protocol conversation error - MAIL FROM Command received before HELO of EHLO
+377-50002411,Protocol conversation error - DATA command received after BDAT
+377-50002220,Protocol conversation error - MAIL FROM command received before mandatory STARTTLS
+377-50002721,Protocol conversation error - Address masquerading error
+377-50002875,Protocol conversation error - TLS is mandatory for the recipient
+377-50002876,Protocol conversation error - TLS is forbidden for the recipient
+377-50003,Denial-of-service check triggered
+377-5000331,Denial-of-service check triggered - Maximum number of trivial commands has been exceeded
+377-5000342,Denial-of-service check triggered - Command length exceeded a configured limit
+377-50003103,Denial-of-service check triggered - Too many AUTH conversation commands
+377-5000343,Denial-of-service check triggered - Average data throughput is lower than a  configured limit
+377-5000321,Denial-of-service check triggered - Maximum number of recipients has been exceeded
+377-5000345,Denial-of-service check triggered - Configuration limit has been exceeded. SMTP will return 421 until a QUIT is received
+377-50004,DATA phase error
+377-5000439,DATA phase error - Maximum email size exceeded
+377-5000440,DATA phase error - Maximum line length exceeded
+377-5000441,DATA phase error - Maximum number of hops exceeded
+377-50005,Logging of the email status during processing
+377-50005418,Transport log. Receive and first delivery - Email dropped. The server is no longer available
+377-50005419,Transport log. Receive and first delivery - Email dropped. The client is no longer available
+377-5000575,Transport log. Receive and first delivery - The email has been received
+377-50005306,Transport log. Receive and first delivery - Email accepted and dropped
+377-50005305,Transport log. Receive and first delivery - Email blocked with SMTP Code 550
+377-50005420,Transport log. Receive and first delivery - Email blocked with SMTP Code 550. Connection closed
+377-5000579,Transport log. Receive and first delivery - Email Rejected
+377-5000578,Transport log. Receive and first delivery - Email Accepted
+377-50005215,Transport log. Receive and first delivery - The email is deferred for scanning
+377-50005214,Transport log. Receive and first delivery - The email is deferred for delivery after scanning
+377-50005183,Transport log. Receive and first delivery - Retryer is attempting delivery
+377-50005213,Transport log. Receive and first delivery - Retryer is attempting scan
+377-50005506,Transport log. Receive and first delivery - The email has been rejected due to directory harvesting
+377-50005702,Transport log. Receive and first delivery - DNS 'TXT' record lookup is done
+377-50005703,Transport log. Receive and first delivery - Short circuit check performed
+377-50005704,Transport log. Receive and first delivery - Behind MTA check performed
+377-50005705,Transport log. Receive and first delivery - Sender authentication/Real-time Blackhole List check performed
+377-50005706,Transport log. Receive and first delivery - Sender authentication/PTIN check performed
+377-50005707,Transport log. Receive and first delivery - Sender authentication/SPF classic check performed
+377-50005708,Transport log. Receive and first delivery - Sender authentication/SenderID check performed
+377-50005709,Transport log. Receive and first delivery - Sender authentication/DKIM signature verification performed
+377-5000583,Transport log. Receive and first delivery - Email Deferred
+377-50005506,Transport log. Receive and first delivery - The email has been rejected due to directory harvesting
+377-50005820,Transport log. Receive and first delivery - Forward confirmed reverse DNS checking
+377-50006,Email Status
+377-5000677,Email Status - Email Delivered
+377-5000683,Email Status - Email Deferred
+377-50006737,Email Status - The undeliverable email has been bounced
+377-5000679,Email Status - Email Rejected
+377-50006901,Email Status - The appliance is unable to deliver an email and configuration forbids sending an NDR
+377-50006305,Email Status - Email blocked with SMTP Code 550
+377-50006306,Email Status - Email accepted and dropped
+377-50006420,Email Status - Email blocked with SMTP Code 550. Connection closed
+377-5000684,Email Status - Email Deferred due to a response from the onward connection
+377-5000686,Email Status - The email is deferred. Delivery has not been attempted
+377-5000687,Email Status - The email is deferred. Timeout while attempting connection
+377-5000688,Email Status - The email is deferred. Nothing listening on the remote address
+377-5000689,Email Status - The email is deferred. Network is unreachable
+377-50006115,Email Status - The undeliverable email has been bounced
+377-50006116,Email Status - The undeliverable email has been bounced and dropped due to empty sender address
+377-50006335,Email Status - The email has been bounced due to a loop back destination
+377-50006309,Email Status - The bounced email has been dropped due to multiple bounces.
+377-50006130,Email Status - Sender denied due to Real-time Blackhole List check
+377-50006131,Email Status - Sender accepted and dropped due to Real-time Blackhole List check
+377-50006132,Email Status - Sender denied due to Anti-spam deny list match for connecting IP address
+377-50006133,Email Status - Sender accepted and dropped due to Anti-spam deny list match for connecting IP address
+377-50006134,Email Status - Sender denied due to Anti-spam deny list match for sender email address
+377-50006135,Email Status - Sender accepted and dropped due to Anti-spam deny list match for sender email address
+377-50006124,Email Status - Recipient denied due to Anti-Relay deny list match
+377-50006125,Email Status - Recipient denied. Not in Permit Relay list
+377-50006126,Email Status - Recipient accepted and dropped. Denied by Anti-Relay
+377-50006127,Email Status - Recipient accepted and dropped. Not in Permit Relay list
+377-50006216,Email Status - Sender has been denied due to routing characters
+377-50006217,Email Status - Sender accepted and dropped due to routing characters
+377-50006128,Email Status - Recipient denied due to routing character
+377-50006129,Email Status - Recipient accepted and dropped due to routing character
+377-50006628,Email Status - The non-deliverable email has been bounced and dropped due to configuration
+377-50006225,Email Status - SSL certificate error
+377-50007,Denied by anti-relay
+377-50007124,Denied by anti-relay - Recipient denied due to Anti-Relay deny list match
+377-50007125,Denied by anti-relay - Recipient denied. Not in Permit Relay list
+377-50007126,Denied by anti-relay - Recipient accepted and dropped. Denied by Anti-Relay
+377-50007127,Denied by anti-relay - Recipient accepted and dropped. Not in Permit Relay list
+377-50007128,Denied by anti-relay - Recipient denied due to routing character
+377-50007129,Denied by anti-relay - Recipient accepted and dropped due to routing character
+377-50007216,Denied by anti-relay - Sender has been denied due to routing characters
+377-50007217,Denied by anti-relay - Sender accepted and dropped due to routing characters
+377-50008,Sender authentication. Denied list triggered
+377-50008253,Sender authentication. Denied list triggered - Accept and drop
+377-50008254,Sender authentication. Denied list triggered - Reject
+377-50008255,Sender authentication. Denied list triggered - Reject and close the connection
+377-50008256,Sender authentication. Denied list triggered - Reject
+377-50009,Delivery
+377-50009136,Delivery - The email address is an Address Literal (that is
+377-50009123,Delivery - The email address matched a domain relay delivery rule
+377-500095124,Delivery - The email address matched a fallback relay delivery rule.
+377-50009421,Delivery - The email address matched an LDAP delivery rule
+377-50009137,Delivery - DNS 'MX' record lookup successful
+377-50009138,Delivery - DNS 'A' record lookup successful
+377-50009422,Delivery - Scanner hit email routed to policy based relay
+377-50009423,Delivery - Allowed through email routed to policy based relay
+377-50010,DNS lookup failed
+377-50010199,DNS lookup failed - Non-existent domain
+377-50010200,DNS lookup failed - No DNS 'MX' records
+377-50010201,DNS lookup failed - Server Failure
+377-50010202,DNS lookyouup failed - No DNS 'A' records
+377-50011,Timeout occurred
+377-5001138,Timeout occurred - Command timed out
+377-5001144,Timeout occurred - DATA phase read time exceeded a configured limit
+377-50012,Quarantine
+377-50012307,Quarantine - Email delivered to quarantine
+377-5001272,Quarantine - State of an object
+377-50013,Sender authentication. Permit/deny list information
+377-50013313,Sender authentication. Permit/deny list information - Due to permit list match
+377-50014,Permitted by anti-relay rule
+377-50014313,Permitted by anti-relay rule - Due to permit list match
+377-50014315,Permitted by anti-relay rule - Due to Anti-Relay local list match
+377-50014316,Permitted by anti-relay rule - Due to open relay
+377-50015,Directory harvest check triggered
+377-50015406,Directory harvest check triggered - No action because the client is in the permit list
+377-50015407,Directory harvest check triggered - Tarpitting started
+377-50015408,Directory harvest check triggered - Connection closed. Client address added to the deny list
+377-50015409,Directory harvest check triggered - Connection closed
+377-50015410,Directory harvest check triggered - Email deleted
+377-50016,Anti-spam submission
+377-50016500,Anti-spam submission - Submission triggered the anti-virus scanner. The email has been rejected
+377-50016501,Anti-spam submission - Submission was incorrectly formatted. The email has been rejected
+377-50019,User blacklist & whitelist error
+377-50019107,User blacklist & whitelist error - Creation of an object has failed
+377-50019328,User blacklist & whitelist error - Failed
+377-50019591,User blacklist & whitelist error - Unable to take a local copy of the user blacklists & whitelists
+377-50020,User blacklist & whitelist LDAP Error
+377-50020531,User blacklist & whitelist LDAP Error - Protocol error
+377-50020532,User blacklist & whitelist LDAP Error - Time limit exceeded
+377-50020533,User blacklist & whitelist LDAP Error - Size limit exceeded
+377-50020534,User blacklist & whitelist LDAP Error - Compare false
+377-50020535,User blacklist & whitelist LDAP Error - Compare true
+377-50020536,User blacklist & whitelist LDAP Error - Authentication method not supported
+377-50020537,User blacklist & whitelist LDAP Error - Strong authentication required
+377-50020538,User blacklist & whitelist LDAP Error - Partial results and referral received
+377-50020539,User blacklist & whitelist LDAP Error - Referral
+377-50020540,User blacklist & whitelist LDAP Error - Administration limit exceeded
+377-50020541,User blacklist & whitelist LDAP Error - Critical extension is unavailable
+377-50020542,User blacklist & whitelist LDAP Error - Confidentiality required
+377-50020543,User blacklist & whitelist LDAP Error - SASL bind in progress
+377-50020544,User blacklist & whitelist LDAP Error - No such attribute
+377-50020545,User blacklist & whitelist LDAP Error - Undefined attribute type
+377-50020546,User blacklist & whitelist LDAP Error - Inappropriate matching
+377-50020547,User blacklist & whitelist LDAP Error - Constraint violation
+377-50020548,User blacklist & whitelist LDAP Error - Type or value exists
+377-50020549,User blacklist & whitelist LDAP Error - Invalid syntax
+377-50020550,User blacklist & whitelist LDAP Error - No such object
+377-50020551,User blacklist & whitelist LDAP Error - Alias problem
+377-50020552,User blacklist & whitelist LDAP Error - Invalid DN syntax
+377-50020553,User blacklist & whitelist LDAP Error - Is leaf
+377-50020554,User blacklist & whitelist LDAP Error - Alias dereference problem
+377-50020555,User blacklist & whitelist LDAP Error - Inappropriate authentication
+377-50020556,User blacklist & whitelist LDAP Error - Invalid credentials
+377-50020557,User blacklist & whitelist LDAP Error - Insufficient access
+377-50020558,User blacklist & whitelist LDAP Error - Server is busy
+377-50020530,User blacklist & whitelist LDAP Error - Operations error
+377-50020559,User blacklist & whitelist LDAP Error - Server is unavailable
+377-50020560,User blacklist & whitelist LDAP Error - Server is unwilling to perform
+377-50020561,User blacklist & whitelist LDAP Error - Loop detect
+377-50020562,User blacklist & whitelist LDAP Error - Naming violation
+377-50020563,User blacklist & whitelist LDAP Error - Object class violation
+377-50020564,User blacklist & whitelist LDAP Error - Not allowed on non-leaf
+377-50020565,User blacklist & whitelist LDAP Error - Not allowed on RDN
+377-50020566,User blacklist & whitelist LDAP Error - Already exists
+377-50020567,User blacklist & whitelist LDAP Error - No object class mods
+377-50020568,User blacklist & whitelist LDAP Error - Results too large
+377-50020569,User blacklist & whitelist LDAP Error - Affects multiple DSAS
+377-50020570,User blacklist & whitelist LDAP Error - Other
+377-50020571,User blacklist & whitelist LDAP Error - Cannot contact LDAP server
+377-50020572,User blacklist & whitelist LDAP Error - Local error
+377-50020573,User blacklist & whitelist LDAP Error - Encoding error
+377-50020574,User blacklist & whitelist LDAP Error - Decoding error
+377-50020575,User blacklist & whitelist LDAP Error - Timeout
+377-50020576,User blacklist & whitelist LDAP Error - Unknown authentication method
+377-50020577,User blacklist & whitelist LDAP Error - Search filter error
+377-50020578,User blacklist & whitelist LDAP Error - User cancelled
+377-50020579,User blacklist & whitelist LDAP Error - Parameter error
+377-50020580,User blacklist & whitelist LDAP Error - Out of memory
+377-50020581,User blacklist & whitelist LDAP Error - Connect error
+377-50020582,User blacklist & whitelist LDAP Error - Not supported
+377-50020583,User blacklist & whitelist LDAP Error - Control not found
+377-50020584,User blacklist & whitelist LDAP Error - No results returned
+377-50020585,User blacklist & whitelist LDAP Error - More results to return
+377-50020586,User blacklist & whitelist LDAP Error - Client loop
+377-50020587,User blacklist & whitelist LDAP Error - Referral limit exceeded
+377-50021,Recipient delivery state
+377-5002172,Recipient delivery state - State of an object
+377-50022,Logging of the email status during McAfee Quarantine Manager processing
+377-50022604,Transport log. McAfee Quarantine Manager - The email has been sent to McAfee Quarantine Manager
+377-50022605,Transport log. McAfee Quarantine Manager - The email is deferred. McAfee Quarantine Manager failure
+377-50022606,Transport log. McAfee Quarantine Manager - The email has been received from McAfee Quarantine Manager for delivery
+377-50022602,Transport log. McAfee Quarantine Manager - Email deleted after exceeding maximum retry period
+377-50023,Reputation service triggered
+377-50023250,Reputation service triggered - Allow through action
+377-50023251,Reputation service triggered - Tarpit
+377-50023252,Reputation service triggered - Add a score
+377-50023253,Reputation service triggered - Accept and drop
+377-50023254,Reputation service triggered - Reject
+377-50023255,Reputation service triggered - Reject and close the connection
+377-50023256,Reputation service triggered - Reject
+377-50024,Reputation service lookup failed
+377-50024218,Reputation service lookup failed - Unable to sign query
+377-50024219,Reputation service lookup failed - Unable to make query
+377-50025,Transport Layer Security (TLS)
+377-50025231,Transport Layer Security (TLS) - TLS used to receive email
+377-50025232,Transport Layer Security (TLS) - TLS used to send email
+377-50026,SMTP temporary error
+377-50026235,SMTP temporary error - SMTP Response To Client
+377-50026236,SMTP temporary error - SMTP Response From Server
+377-50026237,SMTP temporary error - SMTP Connection Closed
+377-50027,SMTP permanent error
+377-50027235,SMTP permanent error - SMTP Response To Client
+377-50027236,SMTP permanent error - SMTP Response From Server
+377-50027237,SMTP permanent error - SMTP Connection Closed
+377-50028,Cumulative threshold exceeded
+377-50028250,Cumulative threshold exceeded - Allow through action
+377-50028251,Cumulative threshold exceeded - Tarpit
+377-50028252,Cumulative threshold exceeded - Add a score
+377-50028253,Cumulative threshold exceeded - Accept and drop
+377-50028254,Cumulative threshold exceeded - Reject
+377-50028255,Cumulative threshold exceeded - Reject and close the connection
+377-50028256,Cumulative threshold exceeded - Reject
+377-50028407,Cumulative threshold exceeded - Tarpitting started
+377-50029,Sender Policy Framework (SPF) initialization failed
+377-50029242,Sender Policy Framework (SPF) initialization failed - Missing or invalid IP address
+377-50029243,Sender Policy Framework (SPF) initialization failed - Missing or invalid Sender address
+377-50029244,Sender Policy Framework (SPF) initialization failed - Missing or invalid HELO
+377-50029247,Sender Policy Framework (SPF) initialization failed - Missing or invalid data
+377-50029246,Sender Policy Framework (SPF) initialization failed - SPF request failed
+377-50029248,Sender Policy Framework (SPF) initialization failed - SPF Explanation for failed request
+377-50030,Sender Policy Framework (SPF) sender failed check
+377-50030251,Sender Policy Framework (SPF) sender failed check - Tarpit
+377-50030252,Sender Policy Framework (SPF) sender failed check - Add a score
+377-50030253,Sender Policy Framework (SPF) sender failed check - Accept and drop
+377-50030254,Sender Policy Framework (SPF) sender failed check - Reject
+377-50030255,Sender Policy Framework (SPF) sender failed check - Reject and close the connection
+377-50030256,Sender Policy Framework (SPF) sender failed check - Reject
+377-50030250,Sender Policy Framework (SPF) sender failed check - Allow through action
+377-50031,Sender Policy Framework (SPF) sender passed check
+377-50031250,Sender Policy Framework (SPF) sender passed check - Allow through action
+377-50031252,Sender Policy Framework (SPF) sender passed check - Add a score
+377-50032,Sender ID initialization failed
+377-50032242,Sender ID initialization failed - Missing or invalid IP address
+377-50032243,Sender ID initialization failed - Missing or invalid Sender address
+377-50032244,Sender ID initialization failed - Missing or invalid HELO
+377-50032247,Sender ID initialization failed - Missing or invalid data
+377-50032245,Sender ID initialization failed - Missing or invalid Purported Responsible address
+377-50032246,Sender ID initialization failed - SPF request failed
+377-50033,Sender ID sender failed check
+377-50033251,Sender ID sender failed check - Tarpit
+377-50033252,Sender ID sender failed check - Add a score
+377-50033253,Sender ID sender failed check - Accept and drop
+377-50033254,Sender ID sender failed check - Reject
+377-50033255,Sender ID sender failed check - Reject and close the connection
+377-50033256,Sender ID sender failed check - Reject
+377-50033250,Sender ID sender failed check - Allow through action
+377-50034,Sender ID sender passed check
+377-50034250,Sender ID sender passed check - Allow through action
+377-50034252,Sender ID sender passed check - Add a score
+377-50035,Real-time Blackhole List lookup error
+377-50035683,Real-time Blackhole List lookup error - Real-time Blackhole List lookup query error
+377-50036,Real-time Blackhole List lookup triggered
+377-50036251,Real-time Blackhole List lookup triggered - Tarpit
+377-50036252,Real-time Blackhole List lookup triggered - Add a score
+377-50036253,Real-time Blackhole List lookup triggered - Accept and drop
+377-50036254,Real-time Blackhole List lookup triggered - Reject
+377-50036255,Real-time Blackhole List lookup triggered - Reject and close the connection
+377-50036256,Real-time Blackhole List lookup triggered - Reject
+377-50036250,Real-time Blackhole List lookup triggered - Allow through action
+377-50036687,Real-time Blackhole List lookup triggered - Real-time Blackhole List match found
+377-50037,Real-time Blackhole List failed to trigger
+377-50037250,Real-time Blackhole List failed to trigger - Allow through action
+377-50037688,Real-time Blackhole List failed to trigger - Real-time Blackhole List match not found
+377-50038,Permit recipient failure triggered
+377-50038251,Permit recipient failure triggered - Tarpit
+377-50038252,Permit recipient failure triggered - Add a score
+377-50038253,Permit recipient failure triggered - Accept and drop
+377-50038254,Permit recipient failure triggered - Reject
+377-50039,Permit recipient test passed
+377-50039250,Permit recipient test passed - Allow through action
+377-50040,DomainKeys Identified Mail (DKIM) failed
+377-50040252,DomainKeys Identified Mail (DKIM) failed - Add a score
+377-50040253,DomainKeys Identified Mail (DKIM) failed - Accept and drop
+377-50040254,DomainKeys Identified Mail (DKIM) failed - Reject
+377-50040255,DomainKeys Identified Mail (DKIM) failed - Reject and close the connection
+377-50040256,DomainKeys Identified Mail (DKIM) failed - Reject
+377-50040250,DomainKeys Identified Mail (DKIM) failed - Allow through action
+377-50040684,DomainKeys Identified Mail (DKIM) failed - Invalid configuration value
+377-50040685,DomainKeys Identified Mail (DKIM) failed - DKIM error
+377-50041,DomainKeys Identified Mail (DKIM) was successful
+377-50041250,DomainKeys Identified Mail (DKIM) was successful - Allow through action
+377-50041252,DomainKeys Identified Mail (DKIM) was successful - Add a score
+377-50042,DomainKeys Identified Mail (DKIM) error
+377-50042686,DomainKeys Identified Mail (DKIM) error - Private key caching error
+377-50042685,DomainKeys Identified Mail (DKIM) error - DKIM error
+377-50045,Bounce Address Tag Validation check failed to validate
+377-50045759,Bounce Address Tag Validation check failed to validate - The BATV tag value could not be validated
+377-50046,McAfee GTI message reputation IP lookup error
+377-50046769,McAfee GTI message reputation IP lookup error - McAfee GTI message reputation lookup query error
+377-50046777,McAfee GTI message reputation IP lookup error - McAfee GTI message reputation lookup query timed out
+377-50047,McAfee GTI message reputation IP lookup triggered
+377-50047251,McAfee GTI message reputation IP lookup triggered - Tarpit
+377-50047252,McAfee GTI message reputation IP lookup triggered - Add a score
+377-50047253,McAfee GTI message reputation IP lookup triggered - Accept and drop
+377-50047254,McAfee GTI message reputation IP lookup triggered - Reject
+377-50047255,McAfee GTI message reputation IP lookup triggered - Reject and close the connection
+377-50047256,McAfee GTI message reputation IP lookup triggered - Reject
+377-50047250,McAfee GTI message reputation IP lookup triggered - Allow through action
+377-50047766,McAfee GTI message reputation IP lookup triggered - McAfee GTI message reputation Lookup hit the configured threshold
+377-50048,McAfee GTI message reputation IP lookup failed to trigger
+377-50048767,McAfee GTI message reputation IP lookup failed to trigger - McAfee GTI message reputation lookup is succesful with the reputation score less than the configured threshold
+377-50049,McAfee GTI message reputation message lookup error
+377-50049769,McAfee GTI message reputation message lookup error - McAfee GTI message reputation lookup query error
+377-50049777,McAfee GTI message reputation message lookup error - McAfee GTI message reputation lookup query timed out
+377-50050,McAfee GTI message reputation message lookup triggered
+377-50050251,McAfee GTI message reputation message lookup triggered - Tarpit
+377-50050252,McAfee GTI message reputation message lookup triggered - Add a score
+377-50050253,McAfee GTI message reputation message lookup triggered - Accept and drop
+377-50050254,McAfee GTI message reputation message lookup triggered - Reject
+377-50050255,McAfee GTI message reputation message lookup triggered - Reject and close the connection
+377-50050256,McAfee GTI message reputation message lookup triggered - Reject
+377-50050250,McAfee GTI message reputation message lookup triggered - Allow through action
+377-50050766,McAfee GTI message reputation message lookup triggered - McAfee GTI message reputation Lookup hit the configured threshold
+377-50051,McAfee GTI message reputation message lookup failed to trigger
+377-50051250,McAfee GTI message reputation message lookup failed to trigger - Allow through action
+377-50051767,McAfee GTI message reputation message lookup failed to trigger - McAfee GTI message reputation lookup is succesful with the reputation score less than the configured threshold
+377-50052,Blackhole given recipients.
+377-50052770,Blackhole given recipients. - Recipient should not receive the email due to the delivery address being configured as the blackhole address.
+377-50053,Using encrypted delivery for email
+377-50053778,Using encrypted delivery for email - Email deferred for encrypted delivery.
+377-50054,Logging to Feedback client failed
+377-50054787,Logging to Feedback client failed - File for Stats Collection is over maximum size
+377-50054788,Logging to Feedback client failed - File for Stats Collection is not initialised
+377-50055,Transmitting Stats Data to Feedback Servers failed
+377-50055789,Transmitting Stats Data to Feedback Servers failed - Timeout while transmitting Stats Collection Data
+377-50055784,Transmitting Stats Data to Feedback Servers failed - Failed due to error in network connection
+377-50055790,Transmitting Stats Data to Feedback Servers failed - No Pending Stats Collection data to transmit
+377-50056,Feedback SDK Initialisation Failed
+377-50056791,Feedback SDK Initialisation Failed - Feedback client internal error
+377-50057,Forward confirmed reverse DNS lookup error
+377-50057683,Forward confirmed reverse DNS lookup error - Real-time Blackhole List lookup query error
+377-50058,Forward confirmed reverse DNS failed to match
+377-50058251,Forward confirmed reverse DNS failed to match - Tarpit
+377-50058252,Forward confirmed reverse DNS failed to match - Add a score
+377-50058253,Forward confirmed reverse DNS failed to match - Accept and drop
+377-50058254,Forward confirmed reverse DNS failed to match - Reject
+377-50058255,Forward confirmed reverse DNS failed to match - Reject and close the connection
+377-50058256,Forward confirmed reverse DNS failed to match - Reject
+377-50058250,Forward confirmed reverse DNS failed to match - Allow through action
+377-50058819,Forward confirmed reverse DNS failed to match - Forward confirmed reverse DNS match not found
+377-50059,Forward confirmed reverse DNS succeeded
+377-50059250,Forward confirmed reverse DNS succeeded - Allow through action
+377-50059252,Forward confirmed reverse DNS succeeded - Add a score
+377-50059818,Forward confirmed reverse DNS succeeded - Forward confirmed reverse DNS match found
+377-50060,Passing secure conversation straight through
+377-50060830,Passing secure conversation straight through - Passing off connection to the onward server
+377-50100,Hybrid connection information
+377-50100840,Hybrid connection information - Switched into Hybrid mode
+377-50100841,Hybrid connection information - Processing X-MXL-IP
+377-50100842,Hybrid connection information - Processing X-MXL-IP failed
+377-50100843,Hybrid connection information - Processing X-MXL-SCANRESULT
+377-50100844,Hybrid connection information - Processing X-MXL-SCANRESULT failed
+377-50061,Secure Web Mail
+377-50061354,Secure Web Mail - Logon successful
+377-50061355,Secure Web Mail - Logon failed
+377-50061356,Secure Web Mail - The user logged off
+377-50061357,Secure Web Mail - The session has expired
+377-50062,SMTP protocol conversation
+377-50062834,SMTP protocol conversation - ldap user name corresponsing to email address is resolved
+377-50062835,SMTP protocol conversation - ldap user name corresponsing to email address is not resolved
+377-50062836,SMTP protocol conversation - set ldap result corresponsing to email address
+377-50062837,SMTP protocol conversation - Resolved identity corresponding to email address
+377-70000,Undelivered email file access
+377-70000117,Undelivered email file access - Check message format
+377-70001,Undelivered email file context
+377-70001118,Undelivered email file context - Message delivery can be attempted
+377-70002,Retry attempt failed
+377-70002119,Retry attempt failed - Cannot open directory
+377-70002120,Retry attempt failed - Cannot open the index file
+377-7000219,Retry attempt failed - Invalid sender email address
+377-70002182,Retry attempt failed - Invalid recipient email address
+377-70002197,Retry attempt failed - Unable to load policy
+377-70002719,Retry attempt failed - Database pool management error
+377-70002717,Retry attempt failed - Error connecting to the database
+377-70002718,Retry attempt failed - Error executing SQL in the database
+377-70002722,Retry attempt failed - Error connecting to the MTA
+377-70002723,Retry attempt failed - MTA connection reset has occurred
+377-70002724,Retry attempt failed - Error parsing the response from MTA
+377-70002725,Retry attempt failed - Invalid response received from MTA
+377-70003,Retryer error
+377-70003717,Retryer error - Error connecting to the database
+377-70003722,Retryer error - Error connecting to the MTA
+377-70003679,Retryer error - Error spawning new thread
+377-70003727,Retryer error - Retryer error
+377-80000,Greylisting service command failed
+377-80000676,Greylisting service command failed - Invalid input from SMTP proxy
+377-80001,Greylisting database failed
+377-80001677,Greylisting database failed - Database error
+377-80002,Greylisting startup error
+377-80002678,Greylisting startup error - Error setting TCP option
+377-80002679,Greylisting startup error - Error spawning new thread
+377-80002680,Greylisting startup error - Proxy error
+377-80003,Greylisting database error
+377-80003681,Greylisting database error - SQL query execution error
+377-80004,Greylisting information
+377-80004682,Greylisting information - Automatic database maintenance done
+377-180000,Anti-virus engine detection
+377-180000145,Anti-virus engine detection - The content was categorized as cleanable content
+377-180000146,Anti-virus engine detection - The content was categorized as uncleanable content
+377-180000624,Anti-virus engine detection - The content was categorized as a Potentially Unwanted Program
+377-180000625,Anti-virus engine detection - The content was categorized as a Packer
+377-180001,Content rule detection
+377-180001146,Content rule detection - The content was categorized as uncleanable content
+377-180002,Anti-spam classification
+377-180002161,Anti-spam classification - The content was categorized as spam
+377-180002206,Anti-spam classification - The content was categorized as non-spam
+377-180002623,Anti-spam classification - The content was categorized as possible phish
+377-180003,File format detection
+377-180003146,File format detection - The content was categorized as uncleanable content
+377-180003817,File format detection - The file format was categorized as non-compliant
+377-180003821,File format detection - The file was classified as a DoS
+377-180004,MIME format detection
+377-180004146,MIME format detection - The content was categorized as uncleanable conten
+377-180004590,MIME format detection - The content-type of the data being transferred is forbidden
+377-180005,Scan actions
+377-180005305,Scan actions - Email blocked with SMTP Code 550
+377-180005420,Scan actions - Email blocked with SMTP Code 550. Connection closed
+377-180005308,Scan actions - Content blocked
+377-180005422,Scan actions - Scanner hit email routed to policy based relay
+377-180005306,Scan actions - Email accepted and dropped
+377-180005300,Scan actions - Signature not broken due to policy. Email delivered to the original recipients(s)
+377-180005302,Scan actions - Content replaced with HTML due to policy. Modified email delivered to the original recipients(s)
+377-180005303,Scan actions - Content removed due to policy. Modified email delivered to the original recipients(s)
+377-180005304,Scan actions - Content cleaned due to policy. Modified email delivered to the original recipients(s)
+377-180005301,Scan actions - Broken signature due to policy. Modified email delivered to the original recipient(s)
+377-180005188,Scan actions - Allow through. Original email delivered to the original recipient(s)
+377-180005353,Scan actions - Allow through. Data to be delivered to the peer
+377-180005349,Scan actions - Allow through. Data to be delivered to the server
+377-180005350,Scan actions - Allow through. Data to be delivered to the client
+377-180005154,Scan actions - Original email quarantined
+377-180005155,Scan actions - Modified email quarantined
+377-180005778,Scan actions - Email deferred for encrypted delivery.
+377-180005870,Scan actions - Email deferred for custom notification
+377-180006,Scan action failed
+377-180006168,Scan action failed - Unable to quarantine original email
+377-180006169,Scan action failed - Unable to quarantine modified email
+377-180006209,Scan action failed - Unable to quarantine the modified email. No modified email
+377-18000639,Scan action failed - Maximum email size exceeded
+377-180006779,Scan action failed - Unable to defer email for encrypted delivery.
+377-180006871,Scan action failed - Unable to defer email for custom notification
+377-180006872,Scan action failed - Unable to deliver the modified email because no modified email found
+377-180006873,Scan action failed - Unable to deliver email because no recipient configured
+377-180006874,Scan action failed - Unable to deliver the original email because it triggered the anti-virus scanner
+377-180006885,Scan action failed - An error occurred attempting to take an action
+377-180006166,Scan action failed - Unable to deliver a notification email to the original recipient(s)
+377-180006167,Scan action failed - Unable to parse a notification email sender address(s)
+377-180007,Scanner failed
+377-180007189,Scanner failed - Unable to scan item
+377-180007195,Scanner failed - Unable to set up scan policy
+377-180007196,Scanner failed - Invalid scanner action
+377-180007776,Scanner failed - Failed to get response for McAfee GTI file reputation Queries
+377-180007851,Scanner failed - One or more of the URL Reputation network lookups timed out or failed
+377-180007852,Scanner failed - Failed to decode URL Reputation network lookup response
+377-180007853,Scanner failed - An error occurred while looking up the reputation of URLs from the network
+377-18000772,Scanner failed - State of an object
+377-180008,URL request denied
+377-180008140,URL request denied - The requested URL contains forbidden characters
+377-180008142,URL request denied - Access to the requested URL is not permitted
+377-180009,HTML content detection
+377-180009345,HTML content detection - HTML SCRIPT tags have been removed
+377-180009347,HTML content detection - HTML ActiveX tags have been removed
+377-180009346,HTML content detection - HTML APPLET tags have been removed
+377-180010,Compliancy detection
+377-180010728,Compliancy detection - The content was categorized as non-compliant
+377-180011,Data Loss Prevention (DLP) detection
+377-180011689,Data Loss Prevention (DLP) detection - The content was categorized as protected content
+377-180012,Mail Size detection
+377-18001239,Mail Size detection - Maximum email size exceeded
+377-180012146,Mail Size detection - The content was categorized as uncleanable content
+377-180013,Regular expression scanning failure
+377-180013762,RegEx scanning failure - Error processing regular expression
+377-180013763,RegEx scanning failure - Syntax error in a regular expression
+377-180014,Image Filtering detection
+377-180014800,Image Filtering detection - The content was categorized as inappropriate content
+377-180015,Policy based action occurred
+377-180015860,Policy based action occurred - Action taken due to the policy configuration
+377-180015861,Policy based action occurred - An error occurred attempting to take an action
+377-180016,Avira Anti-virus engine detection
+377-180016145,Avira Anti-virus engine detection - The content was categorized as cleanable content
+377-180016146,Avira Anti-virus engine detection - The content was categorized as uncleanable content
+377-180016624,Avira Anti-virus engine detection - The content was categorized as a Potentially Unwanted Program
+377-180016625,Avira Anti-virus engine detection - The content was categorized as a Packer
+377-180017,CommtouchÂ® Command Anti-virus engine detection
+377-180017145,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as cleanable content
+377-180017146,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as uncleanable content
+377-180017624,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as a Potentially Unwanted Program
+377-180017625,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as a Packer
+377-180018,Mail URL Reputation detection
+377-180018849,Mail URL Reputation detection - Unsafe URL(s) found in the message
+377-180018850,Mail URL Reputation detection - Too many URLs found in the message
+377-180018890,Mail URL Reputation detection - URLs rewritten by ClickProtect
+377-180018891,Mail URL Reputation detection - Could not ClickProtect URLs in the original email
+377-180019,Unscannable Content
+377-180019854,Unscannable Content - Too many unsuccessful scan attempts
+377-180019855,Unscannable Content - An error occurred attempting to take an action
+377-180022,Advanced Threat Defense
+377-180022882,Advanced Threat Defense - ATD scan timed out
+377-180022883,Advanced Threat Defense - Too many files queued for ATD
+377-180022884,Advanced Threat Defense - ATD scan failed
+377-180022885,Advanced Threat Defense - An error occurred attempting to take an action
+377-180024,Advanced Threat Defense Scanning Flow
+377-180024886,Advanced Threat Defense Scanning Flow - File submitted for scanning on ATD
+377-180024892,Advanced Threat Defense Scanning Flow - Result for file submitted for scanning by ATD
+377-180024887,Advanced Threat Defense Scanning Flow - File previously submitted to ATD
+377-180024893,Advanced Threat Defense Scanning Flow - File is in whitelist
+377-180024894,Advanced Threat Defense Scanning Flow - File is in blacklist
+377-180024888,Advanced Threat Defense Scanning Flow - Failed to submit file to ATD
+377-180024895,Advanced Threat Defense Scanning Flow - Failed to scan file with ATD
+377-180024896,Advanced Threat Defense Scanning Flow - Unable to obtain result of scan from ATD
+377-180024889,Advanced Threat Defense Scanning Flow - Read a result from the ATD cache
+377-180024880,Advanced Threat Defense Scanning Flow - Email deferred for ATD scanning
+377-180024897,Advanced Threat Defense Scanning Flow - The MATD scan has been cancelled
+377-180025,Advanced Threat Defense Detection
+377-180025881,Advanced Threat Defense Detection - ATD threshold level exceeded
+377-180030,URL reputation has been temporarily disabled
+377-180030626,URL reputation has been temporarily disabled - Unable to load the web categorization database
+377-180030627,URL reputation has been temporarily disabled - Unable to initialize the McAfee GTI web categorization engine
+377-180031,URL has been blocked due to categorization
+377-180031611,URL has been blocked due to categorization - URL categorized by web categorization
+377-180032,URL has been coached due to categorization
+377-180032611,URL has been coached due to categorization - URL categorized by web categorization
+377-180032612,URL has been coached due to categorization - Access to a coached URL permitted
+377-180033,Categorized URL has been permitted
+377-180033611,Categorized URL has been permitted - URL categorized by web categorization
+377-180034,URL reputation summary data for ePO
+377-180034619,URL reputation summary data for ePO - Web categorization ePolicy Orchestrator summary
+377-180035,Categorized URL has been permitted for a monitored user
+377-180035611,Categorized URL has been permitted for a monitored user - URL categorized by web categorization
+377-180036,McAfee GTI web reputation has been temporarily disabled
+377-180036626,McAfee GTI web reputation has been temporarily disabled - Unable to load the web categorization database
+377-180036627,McAfee GTI web reputation has been temporarily disabled - Unable to initialize the McAfee GTI web categorization engine
+377-180041,Avira AV Scanner has been temporarily disabled
+377-180041801,Avira AV Scanner has been temporarily disabled - Engine file initialisation failed
+377-180041802,Avira AV Scanner has been temporarily disabled - DAT file initialisation failed
+377-180042,CommtouchÂ® Command AV Scanner has been temporarily disabled
+377-180042801,CommtouchÂ® Command AV Scanner has been temporarily disabled - Engine file initialisation failed
+377-180042802,CommtouchÂ® Command AV Scanner has been temporarily disabled - DAT file initialisation failed
+377-181000,Transfer of events to SmartReporter
+377-181000640,Transfer of events to SmartReporter - Transfer started
+377-181000641,Transfer of events to SmartReporter - Transfer succeeded
+377-181000642,Transfer of events to SmartReporter - Transfer failed
+377-181000109,Transfer of events to SmartReporter - Request denied. Unable to authenticate user
+377-182000,Authentication broker
+377-182000662,Authentication broker - NTLM authentication failed
+377-182000663,Authentication broker - Incorrect response from the NTLM authentication manager
+377-182000664,Authentication broker - Unable to connect to NTLM authentication manager
+377-182000665,Authentication broker - Incorrect response from NTLM authentication YR command
+377-182000666,Authentication broker - No context for final NTLM authentication request
+377-182000667,Authentication broker - Unable to connect to NTLM authentication manager
+377-182000668,Authentication broker - Missing secret file
+377-182000669,Authentication broker - Incorrect URL from HTTP proxy
+377-182001,Authentication broker
+377-182001670,Authentication broker - Setup authentication server OK
+377-182001671,Authentication broker - Setup authentication server failed
+377-185000,Objects are clean. No action taken
+377-185000726,Objects are clean. No action taken - This conversation is pristine
+377-190010,Load balance appliance install
+377-190011,Load balance appliance booting
+377-190012,Load balance appliance OK
+377-190013,Load balance appliance shutdown
+377-190014,Load balance appliance failure
+377-190015,Load balance appliance disabled
+377-190016,Load balance appliance timed out
+377-190032,This appliance is the network appliance
+377-190033,This appliance is a redundant appliance
+377-190034,This appliance is synchronizing with the management appliance
+377-190035,This appliance is being ignored
+377-190036,This appliance has failed to install
+377-200000,Statistics
+377-200001,Periodic Statistics
+377-210000,Resource failed
+377-210000106,Resource failed - A disk is full
+377-210000107,Resource failed - Creation of an object has failed
+377-210000203,Resource failed - Unable to write file to disk
+377-210000717,Resource failed - Error connecting to the database
+377-210000718,Resource failed - Error executing SQL in the database
+377-210000720,Resource failed - Resource synchronization error
+377-210001,Resource usage is OK
+377-210002,Resource usage reached warning level
+377-210003,Resource usage reached critical level
+377-210013,Resource usage is OK
+377-210014,Resource usage reached warning level
+377-210015,Resource usage reached critical level
+377-210004,Raid disk state has changed
+377-210004336,Raid disk state has changed - The RAID disk is optimal
+377-210004337,Raid disk state has changed - The RAID disk is degraded
+377-210004338,Raid disk state has changed - The RAID disk is being rebuilt
+377-210005,Protocol state has changed
+377-210005340,Protocol state has changed - The specific protocol is available
+377-210005339,Protocol state has changed - The specific protocol has failed
+377-210005904,Protocol state has changed - The specific protocol is in a critical condition
+377-210006,Bridge state has changed
+377-210006416,Bridge state has changed - The bridge is forwarding
+377-210006417,Bridge state has changed - The bridge is blocking
+377-210007,Appliance throughput limit
+377-210007597,Appliance throughput limit - The appliance is approaching its throughput limit
+377-210007596,Appliance throughput limit - The appliance has exceeded its throughput limit
+377-210009,Bypass switch state has changed
+377-210009656,Bypass switch state has changed - The bypass switch is present
+377-210009657,Bypass switch state has changed - The bypass switch is not present
+377-210009658,Bypass switch state has changed - The bypass switch is in bypass mode
+377-210009659,Bypass switch state has changed - The bypass switch is online
+377-210009673,Bypass switch state has changed - Unable to apply configuration to bypass switch
+377-210009674,Bypass switch state has changed - Configured bypass switch successfully
+377-210009675,Bypass switch state has changed - Communications failure with the bypass device
+377-210010,An Appliance address has changed
+377-210010735,An Appliance address has changed - New IP Address has been allocated to an interface
+377-210010736,An Appliance address has changed - An IP Address has been removed from an interface
+377-210011,MA state has changed
+377-210011756,MA state has changed - Connectivity is available
+377-210011757,MA state has changed - Connectivity is not available
+377-210011744,MA state has changed - Number of files reached threshold
+377-210011754,MA state has changed - Communication timeout
+377-210011755,MA state has changed - Process is not running
+377-21001152,MA state has changed - Network application was started
+377-21001153,MA state has changed - Network application has finished
+377-210012,Link has changed state
+377-210012816,Link has changed state - Information about the network link
+377-210050,The UPS mains power has returned
+377-210050745,The UPS mains power has returned - Mains supply to the UPS has been restored
+377-210051,The UPS mains power has failed
+377-210051746,The UPS mains power has failed - Mains supply to the UPS has failed
+377-210052,The UPS battery is low
+377-210052747,The UPS battery is low - The charge level in the UPS battery is low
+377-210053,The UPS has requested that the system shutdown
+377-210053748,The UPS has requested that the system shutdown - The UPS has requested that the system is shut down
+377-210053749,The UPS has requested that the system shutdown - The UPS system has requested that the system is shut down after the configured time on battery
+377-210054,The UPS communications status has changed
+377-210054750,The UPS communications status has changed - Communications with the UPS has been established
+377-210054751,The UPS communications status has changed - Communications with the UPS has been interrupted
+377-210054752,The UPS communications status has changed - Communications with the UPS has been lost
+377-210055,The UPS battery needs replacing
+377-210055753,The UPS battery needs replacing - The UPS has signalled that its battery has reached the end of its life and requires replacement
+377-210060,Chassis configuration has changed and needs to be applied to the hardware
+377-210060780,Chassis configuration has changed and needs to be applied to the hardware - The chassis configuration has changed and needs reapplying
+377-210061,Chassis status has changed
+377-210061781,Chassis status has changed - A component of the chassis is now OK
+377-210061782,Chassis status has changed - A component of the chassis is not functioning correctly
+377-210061783,Chassis status has changed - A component of the chassis has failed
+377-210070,The appliance hardware monitoring has spotted a change
+377-210070803,The appliance hardware monitoring has spotted a change - A hardware component of the appliance is now OK
+377-210070804,The appliance hardware monitoring has spotted a change - A hardware component of the appliance is not functioning correctly
+377-210070805,The appliance hardware monitoring has spotted a change - A hardware component of the appliance is in a critical state
+377-210100,Update progress
+377-210100317,Update progress - Start updating from a local file
+377-210100318,Update progress - Start updating from a network server
+377-210100319,Update progress - Attempting to fetch a file
+377-210100320,Update progress - File fetched successfully
+377-210100321,Update progress - Unable to fetch file
+377-210100322,Update progress - File fetched was not as expected
+377-210100323,Update progress - File has bad content
+377-210100324,Update progress - Test install failed
+377-210100343,Update progress - Unable to install new engine
+377-210100344,Update progress - Unable to install new DATs/rules
+377-210100341,Update progress - Successfully updated engine
+377-210100342,Update progress - Successfully updated DATs/rules
+377-210100327,Update progress - Appliance already up-to-date
+377-210100729,Update progress - DATs/rules update failed
+377-210100730,Update progress - Waiting for DATs/rules update server response
+377-210100731,Update progress - Downloading DATs/rules from server
+377-210100732,Update progress - Applying downloaded DATs/rules changes
+377-210100733,Update progress - Reloading new DATs/rules
+377-210100734,Update progress - Unspecified DATs/rules update progress
+377-210100325,Update progress - Waiting to retry
+377-210100391,Update progress - A system command failed
+377-210100388,Update progress - Installed ExtraDAT file
+377-210100389,Update progress - Removed ExtraDAT file
+377-210100390,Update progress - No file given
+377-210100381,Update progress - RPM contained unacceptable files
+377-210100382,Update progress - RPM package contained unacceptable scripts
+377-210100383,Update progress - File supplied is not a well formed RPM package
+377-210100384,Update progress - RPM package conflicts with existing files
+377-210100385,Update progress - RPM package conflict
+377-210100386,Update progress - Added extra rules RPM package
+377-210100387,Update progress - Removed extra rules RPM package
+377-210101,Anti-virus update has made changes
+377-210101326,Anti-virus update has made changes - Successfully updated engine and DATs/rules
+377-210101341,Anti-virus update has made changes - Successfully updated engine
+377-210101342,Anti-virus update has made changes - Successfully updated DATs/rules
+377-210101388,Anti-virus update has made changes - Installed ExtraDAT file
+377-210101389,Anti-virus update has made changes - Removed ExtraDAT file
+377-210102,Anti-virus update. No change
+377-210102327,Anti-virus update. No change - Appliance already up-to-date
+377-210103,Anti-virus update failed
+377-210103321,Anti-virus update failed - Unable to fetch file
+377-210103322,Anti-virus update failed - File fetched was not as expected
+377-210103323,Anti-virus update failed - File has bad content
+377-210103324,Anti-virus update failed - Test install failed
+377-210103343,Anti-virus update failed - Unable to install new engine
+377-210103344,Anti-virus update failed - Unable to install new DATs/rules
+377-210103391,Anti-virus update failed - A system command failed
+377-210103784,Anti-virus update failed - Failed due to error in network connection
+377-210104,Anti-virus update interrupted
+377-210111,Anti-spam engine update has made changes
+377-210111326,Anti-spam engine update has made changes - Successfully updated engine and DATs/rules
+377-210111341,Anti-spam engine update has made changes - Successfully updated engine
+377-210111342,Anti-spam engine update has made changes - Successfully updated DATs/rules
+377-210111386,Anti-spam engine update has made changes - Added extra rules RPM package
+377-210111387,Anti-spam engine update has made changes - Removed extra rules RPM package
+377-210112,Anti-spam engine update. No change
+377-210112327,Anti-spam engine update. No change - Appliance already up-to-date
+377-210113,Anti-spam engine update failed
+377-210113321,Anti-spam engine update failed - Unable to fetch file
+377-210113322,Anti-spam engine update failed - File fetched was not as expected
+377-210113323,Anti-spam engine update failed - File has bad content
+377-210113324,Anti-spam engine update failed - Test install failed
+377-210113343,Anti-spam engine update failed - Unable to install new engine
+377-210113390,Anti-spam engine update failed - No file given
+377-210113903,Anti-spam engine update failed - Spam enginge install failed
+377-210113381,Anti-spam engine update failed - RPM contained unacceptable files
+377-210113382,Anti-spam engine update failed - RPM package contained unacceptable scripts
+377-210113383,Anti-spam engine update failed - File supplied is not a well formed RPM package
+377-210113384,Anti-spam engine update failed - RPM package conflicts with existing files
+377-210113385,Anti-spam engine update failed - RPM package conflict
+377-210113391,Anti-spam engine update failed - A system command failed
+377-210114,Anti-spam engine update interrupted
+377-210121,Anti-spam rules update made changes
+377-210121342,Anti-spam rules update made changes - Successfully updated DATs/rules
+377-210122,Anti-spam rules update. No change
+377-210122327,Anti-spam rules update. No change - Appliance already up-to-date
+377-210122902,Anti-spam rules update. No change - No new update
+377-210122632,Anti-spam rules update. No change - Another process is already handling this task
+377-210123,Anti-spam rules update failed
+377-210123344,Anti-spam rules update failed - Unable to install new DATs/rules
+377-210123729,Anti-spam rules update failed - DATs/rules update failed
+377-210124,Anti-spam rules update interrupted
+377-210125,Anti-spam rules update succeeded after a series of failures
+377-210125342,Anti-spam rules update succeeded after a series of failures - Successfully updated DATs/rules
+377-210125327,Anti-spam rules update succeeded after a series of failures - Appliance already up-to-date
+377-210126,Anti-spam update failing repeatedly
+377-210126729,Anti-spam update failing repeatedly - DATs/rules update failed
+377-210200,Anti-spam installation status
+377-210200330,Anti-spam installation status - Installed
+377-210200331,Anti-spam installation status - Evaluation period started
+377-210200332,Anti-spam installation status - Evaluation period expired
+377-210200333,Anti-spam installation status - End of evaluation period approaching
+377-210200334,Anti-spam installation status - Uninstalled
+377-210201,URL reputation installation status
+377-210201330,URL reputation installation status - Installed
+377-210201331,URL reputation installation status - Evaluation period started
+377-210201332,URL reputation installation status - Evaluation period expired
+377-210201333,URL reputation installation status - End of evaluation period approaching
+377-210201334,URL reputation installation status - Uninstalled
+377-210202,Email compliance installation status
+377-210202330,Email compliance installation status - Installed
+377-210202331,Email compliance installation status - Evaluation period started
+377-210202332,Email compliance installation status - Evaluation period expired
+377-210202333,Email compliance installation status - End of evaluation period approaching
+377-210202334,Email compliance installation status - Uninstalled
+377-210203,Data Loss Prevention (DLP) installation status
+377-210203330,Data Loss Prevention (DLP) installation status - Installed
+377-210203331,Data Loss Prevention (DLP) installation status - Evaluation period started
+377-210203332,Data Loss Prevention (DLP) installation status - Evaluation period expired
+377-210203333,Data Loss Prevention (DLP) installation status - End of evaluation period approaching
+377-210203334,Data Loss Prevention (DLP) installation status - Uninstalled
+377-210204,Avira installation status
+377-210204330,Avira installation status - Installed
+377-210204331,Avira installation status - Evaluation period started
+377-210204332,Avira installation status - Evaluation period expired
+377-210204333,Avira installation status - End of evaluation period approaching
+377-210204334,Avira installation status - Uninstalled
+377-210205,CommtouchÂ® Command installation status
+377-210205330,CommtouchÂ® Command installation status - Installed
+377-210205331,CommtouchÂ® Command installation status - Evaluation period started
+377-210205332,CommtouchÂ® Command installation status - Evaluation period expired
+377-210205333,CommtouchÂ® Command installation status - End of evaluation period approaching
+377-210205334,CommtouchÂ® Command installation status - Uninstalled
+377-210301,URL reputation database update made changes
+377-210301342,URL reputation database update made changes - Successfully updated DATs/rules
+377-210302,URL reputation database update. No change
+377-210302327,URL reputation database update. No change - Appliance already up-to-date
+377-210303,URL reputation database update failed
+377-210303620,URL reputation database update failed - Download of updates failed
+377-210303344,URL reputation database update failed - Unable to install new DATs/rules
+377-210303621,URL reputation database update failed - Informational message from update
+377-210303622,URL reputation database update failed - Warning message from update
+377-210303391,URL reputation database update failed - A system command failed
+377-210304,URL reputation database update interrupted
+377-210305,URL reputation database update information
+377-210305621,URL reputation database update information - Informational message from update
+377-210305622,URL reputation database update information - Warning message from update
+377-210400,Gateway evaluation status
+377-210400332,Gateway evaluation status - Evaluation period expired
+377-210400333,Gateway evaluation status - End of evaluation period approaching
+377-210500,Package update
+377-210500633,Package update - Package downloaded
+377-210500634,Package update - Unable to download package
+377-210500635,Package update - Package installed
+377-210500636,Package update - Unable to install package
+377-210501,Package update. Critical package available
+377-210502,Package update. Recommended package available
+377-210503,Package update. Package available
+377-210600,Secure shell (SSH) configuration changed
+377-210600637,Secure shell (SSH) configuration changed - Enabled
+377-210600638,Secure shell (SSH) configuration changed - Disabled
+377-210700,Appliance SNMP heartbeat
+377-210800,Data Loss Prevention (DLP) update
+377-210800691,Data Loss Prevention (DLP) update - The DLP database has been updated
+377-210800694,Data Loss Prevention (DLP) update - The DLP database update has started
+377-210800690,Data Loss Prevention (DLP) update - The DLP database was replaced
+377-210800692,Data Loss Prevention (DLP) update - The DLP database was cleared
+377-210801,Data Loss Prevention (DLP) Classification change
+377-210801695,Data Loss Prevention (DLP) Classification change - A classification has been added
+377-210801696,Data Loss Prevention (DLP) Classification change - A classification has been removed
+377-210802,Data Loss Prevention (DLP) database update failed
+377-210802693,Data Loss Prevention (DLP) database update failed - The DLP database update failed
+377-210802798,Data Loss Prevention (DLP) database update failed - DLP is not enabled
+377-210803,Data Loss Prevention (DLP) master database disk space is low
+377-210803693,Data Loss Prevention (DLP) master database disk space is low - The DLP database update failed
+377-210804,ePO policy enforced
+377-210804792,ePO policy enforced - Config applied
+377-210805,ePO policy unchanged
+377-210805327,ePO policy unchanged - Appliance already up-to-date
+377-210806,ePO policy enforcement failed
+377-210806793,ePO policy enforcement failed - Could not create session for config apply
+377-210806795,ePO policy enforcement failed - Session configuration directory missing
+377-210806796,ePO policy enforcement failed - Cannot create temporary files/directories for ePO policy push
+377-210806797,ePO policy enforcement failed - Policy push from ePO not enabled
+377-210806794,ePO policy enforcement failed - Session configuration directory missing
+377-210806799,ePO policy enforcement failed - Configuration received from ePO is not compatible
+377-210806848,ePO policy enforcement failed - McAfee SaaS Email Protection Service client certificate invalid
+377-210806905,ePO policy enforcement failed - Configuration received from ePO is incomplete
+377-210807,ePO policy enforced with warnings
+377-210807792,ePO policy enforced with warnings - Config applied
+377-800000,Event s were lost due to system overloading
+377-800001,Event queue has recovered
+377-800002,Event s failed to be delivered via the network
+377-900000,Execution trace
+377-900001,Dummy high severity debug event
+377-900002,Logs from,McAfee GTI message reputation
+377-900002768,Logs from,McAfee GTI message reputation - Log Everything passed on by,McAfee GTI message reputation if enabled
+377-990000,An unhandled exception occurred
+377-990001,Gateway application has failed
+377-990001525,Gateway application has failed - The application has had a segmentation violation
+377-990001526,Gateway application has failed - The application has had a process abort signal
+377-220000,User logon
+377-220000354,User logon - Logon successful
+377-220000355,User logon - Logon failed
+377-220001,User logoff
+377-220001356,User logoff - The user logged off
+377-220001357,User logoff - The session has expired
+377-220002,Appliance has been rebooted or stopped
+377-220002358,Appliance has been rebooted or stopped - The appliance has been stopped
+377-220002359,Appliance has been rebooted or stopped - The appliance has been rebooted
+377-220003,Appliance date changed
+377-220003360,Appliance date changed - Date change successful
+377-220004,Password changed
+377-220004361,Password changed - Password change successful
+377-220005,Logs saved
+377-220005362,Logs saved - The logs have been saved
+377-220006,Appliance configuration saved
+377-220006363,Appliance configuration saved - The appliance's configuration files have been saved
+377-220006906,Appliance configuration saved - The appliance's certificate files have been saved
+377-220007,User interface started
+377-220007364,User interface started - The user interface backend has started
+377-220008,User interface stopped
+377-220008365,User interface stopped - The user interface backend has stopped
+377-220009,Applying new configuration
+377-220010,Finished applying new configuration
+377-220011,Configuration changed
+377-220012,User accounts/roles modified
+377-220012738,User accounts/roles modified - User added
+377-220012739,User accounts/roles modified - User modified
+377-220012740,User accounts/roles modified - User removed
+377-220012741,User accounts/roles modified - User role added
+377-220012742,User accounts/roles modified - User role modified
+377-220012743,User accounts/roles modified - User role removed
+377-220050,SSL error when accessing the user interface
+377-220050831,SSL error when accessing the user interface - SSL/TLS error in the httpd daemon
+377-220051,SSL connection state changed
+377-220051832,SSL connection state changed - SSL/TLS connection established
+377-220051833,SSL connection state changed - SSL/TLS connection closed
+377-220070,Email Hybrid provisioning successful
+377-220070845,Email Hybrid provisioning successful - Registration with the McAfee SaaS Email Protection Service succeeded
+377-220071,Email Hybrid provisioning failed
+377-220071846,Email Hybrid provisioning failed - Registration with the McAfee SaaS Email Protection Service failed
+377-220072,Email Hybrid deprovisioned
+377-220072847,Email Hybrid deprovisioned - Unregistered from the McAfee SaaS Email Protection Service
+377-220100,User blacklist & whitelist updated
+377-220100592,User blacklist & whitelist updated - A local copy of the user blacklists & whitelists has been taken
+377-220100591,User blacklist & whitelist updated - Unable to take a local copy of the user blacklists & whitelists
+377-220100593,User blacklist & whitelist updated - An error occurred obtaining user blacklist & whitelist XML data
+377-220150,Configuration back up
+377-220150785,Configuration back up - Backup failed
+377-220150786,Configuration back up - Backup successful
+377-220160,Log to file archival
+377-220160785,Log to file archival - Backup failed
+377-220160786,Log to file archival - Backup successful
+377-220180,User has viewed an audit trail
+377-220180810,User has viewed an audit trail - Email report generated
+377-220180811,User has viewed an audit trail - System report generated
+377-220180812,User has viewed an audit trail - Scheduled report generated
+377-220180813,User has viewed an audit trail - Configuration change log generated
+377-220210,Quarantine digests
+377-220210512,Quarantine digests - Digest generation started
+377-220210511,Quarantine digests - Unable to generate the email digest
+377-220210510,Quarantine digests - An email digest has been generated
+377-220210513,Quarantine digests - Digest generation was successful
+377-220210515,Quarantine digests - A digest generator is already running
+377-220210514,Quarantine digests - Digest generation failed
+377-230000,Failed to transfer data from the McAfee Quarantine Manager server
+377-230000598,Failed to transfer data from the McAfee Quarantine Manager server - Unable to create a file on disk
+377-23000074,Failed to transfer data from the McAfee Quarantine Manager server - Reading data from the network
+377-230000203,Failed to transfer data from the McAfee Quarantine Manager server - Unable to write file to disk
+377-230000107,Failed to transfer data from the McAfee Quarantine Manager server - Creation of an object has failed
+377-230001,Failed to connect to the McAfee Quarantine Manager server
+377-230001599,Failed to connect to the McAfee Quarantine Manager server - Unable to bind
+377-230001600,Failed to connect to the McAfee Quarantine Manager server - Unable to initialize the McAfee Quarantine Manager client
+377-230002,Failed to transfer data to the McAfee Quarantine Manager server
+377-230002601,Failed to transfer data to the McAfee Quarantine Manager server - Unable to store the email
+377-230002602,Failed to transfer data to the McAfee Quarantine Manager server - Email deleted after exceeding maximum retry period
+377-230003,Failed to update the local blacklist and whitelist database from McAfee Quarantine Manager
+377-230003630,Failed to update the local blacklist and whitelist database from McAfee Quarantine Manager - Unable to import the blacklists and whitelists into an  LDAP repository
+377-230004,Successful update of the local blacklist and whitelist database from McAfee Quarantine Manager
+10000,Gateway application status
+1000046,Gateway application status - Application has started
+1000049,Gateway application status - Application was terminated due to an invalid argument
+1000050,Gateway application status - Argument was missing a value
+1000051,Gateway application status - Unable to create a process
+1000057,Gateway application status - Unable to set the process to run as the specific user
+1000058,Gateway application status - Unable to set the process to run as the specific group
+1000056,Gateway application status - Unable to obtain the user identification
+1000052,Gateway application status - Network application was started
+1000053,Gateway application status - Network application has finished
+1000054,Gateway application status - Process that listens for protocol requests was started
+1000055,Gateway application status - Process that listens for protocol requests has terminated
+1000071,Gateway application status - Process has handled its maximum number of connections
+1000070,Gateway application status - Process exceeded its maximum memory size
+1000059,Gateway application status - Process that listens for protocol requests cannot start
+10001,Gateway network listener
+1000163,Gateway network listener - Attempting to create a network listener port
+1000160,Gateway network listener - Unable to create a network listener port
+1000161,Gateway network listener - Successfully created a network listener port
+1000162,Gateway network listener - Listener port was shutdown
+10002,Failed to create connection
+1000264,Failed to create connection - Unable to create a new connection object
+10003,Connection status
+1000365,Connection status - New connection data set up
+1000366,Connection status - Connection queued for processing
+1000368,Connection status - Connection is being processed
+1000369,Connection status - Connection processing complete
+12000,Connection failed
+12000114,Connection failed - Unable to obtain network socket
+120006,Connection failed - Timed out
+120007,Connection failed - No one listening on the remote address
+120009,Connection failed - Network is unreachable
+1200010,Connection failed - Multiple routes to remote address
+1200011,Connection failed - Unable to resolve remote host name
+1200034,Connection failed - Operation now in progress
+1200012,Connection failed - Connection loop detected
+1200035,Connection failed - Connection has been closed by the remote host
+120008,Connection failed - The application has failed
+12002,Information dump
+1200272,Information dump - State of an object
+1200273,Information dump - Writing data to the network
+1200274,Information dump - Reading data from the network
+15000,Policy
+15000211,Policy - Message has matched multiple policies
+15000212,Policy - Selecting base policy. Message exceeded the maximum number of policies that can be matched
+15001,LDAP Query failed
+15001378,LDAP Query failed - Unable to get the results from the group query
+15001379,LDAP Query failed - Unable to get the results for an identity import
+15001531,LDAP Query failed - Protocol error
+15001532,LDAP Query failed - Time limit exceeded
+15001533,LDAP Query failed - Size limit exceeded
+15001534,LDAP Query failed - Compare false
+15001535,LDAP Query failed - Compare true
+15001536,LDAP Query failed - Authentication method not supported
+15001537,LDAP Query failed - Strong authentication required
+15001538,LDAP Query failed - Partial results and referral received
+15001539,LDAP Query failed - Referral
+15001540,LDAP Query failed - Administration limit exceeded
+15001541,LDAP Query failed - Critical extension is unavailable
+15001542,LDAP Query failed - Confidentiality required
+15001543,LDAP Query failed - SASL bind in progress
+15001544,LDAP Query failed - No such attribute
+15001545,LDAP Query failed - Undefined attribute type
+15001546,LDAP Query failed - Inappropriate matching
+15001547,LDAP Query failed - Constraint violation
+15001548,LDAP Query failed - Type or value exists
+15001549,LDAP Query failed - Invalid syntax
+15001550,LDAP Query failed - No such object
+15001551,LDAP Query failed - Alias problem
+15001552,LDAP Query failed - Invalid DN syntax
+15001553,LDAP Query failed - Is leaf
+15001554,LDAP Query failed - Alias dereference problem
+15001555,LDAP Query failed - Inappropriate authentication
+15001556,LDAP Query failed - Invalid credentials
+15001557,LDAP Query failed - Insufficient access
+15001558,LDAP Query failed - Server is busy
+15001530,LDAP Query failed - Operations error
+15001559,LDAP Query failed - Server is unavailable
+15001560,LDAP Query failed - Server is unwilling to perform
+15001561,LDAP Query failed - Loop detect
+15001562,LDAP Query failed - Naming violation
+15001563,LDAP Query failed - Object class violation
+15001564,LDAP Query failed - Not allowed on non-leaf
+15001565,LDAP Query failed - Not allowed on RDN
+15001566,LDAP Query failed - Already exists
+15001567,LDAP Query failed - No object class mods
+15001568,LDAP Query failed - Results too large
+15001569,LDAP Query failed - Affects multiple DSAS
+15001570,LDAP Query failed - Other
+15001571,LDAP Query failed - Cannot contact LDAP server
+15001572,LDAP Query failed - Local error
+15001573,LDAP Query failed - Encoding error
+15001574,LDAP Query failed - Decoding error
+15001575,LDAP Query failed - Timeout
+15001576,LDAP Query failed - Unknown authentication method
+15001577,LDAP Query failed - Search filter error
+15001578,LDAP Query failed - User cancelled
+15001579,LDAP Query failed - Parameter error
+15001580,LDAP Query failed - Out of memory
+15001581,LDAP Query failed - Connect error
+15001582,LDAP Query failed - Not supported
+15001583,LDAP Query failed - Control not found
+15001584,LDAP Query failed - No results returned
+15001585,LDAP Query failed - More results to return
+15001586,LDAP Query failed - Client loop
+15001587,LDAP Query failed - Referral limit exceeded
+15003,Failed to generate a list of identities
+15003378,Failed to generate a list of identities - Unable to get the results from the group query
+15003379,Failed to generate a list of identities - Unable to get the results for an identity import
+15007,LDAP directory synchronisation status
+15007764,LDAP directory synchronisation status - Directory Sync has started
+15007765,LDAP directory synchronisation status - Directory Sync has finished
+15007771,LDAP directory synchronisation status - LDAP Sync group query failed
+15007772,LDAP directory synchronisation status - Failed to sync the mail list
+15007773,LDAP directory synchronisation status - Failed to sync the web list
+15007774,LDAP directory synchronisation status - Failed to obtain information for an email address
+15007775,LDAP directory synchronisation status - Failed to obtain information for a web user
+15008,LDAP directory sync failed
+15008378,LDAP directory sync failed - Unable to get the results from the group query
+15008379,LDAP directory sync failed - Unable to get the results for an identity import
+15008531,LDAP directory sync failed - Protocol error
+15008532,LDAP directory sync failed - Time limit exceeded
+15008533,LDAP directory sync failed - Size limit exceeded
+15008534,LDAP directory sync failed - Compare false
+15008535,LDAP directory sync failed - Compare true
+15008536,LDAP directory sync failed - Authentication method not supported
+15008537,LDAP directory sync failed - Strong authentication required
+15008538,LDAP directory sync failed - Partial results and referral received
+15008539,LDAP directory sync failed - Referral
+15008540,LDAP directory sync failed - Administration limit exceeded
+15008541,LDAP directory sync failed - Critical extension is unavailable
+15008542,LDAP directory sync failed - Confidentiality required
+15008543,LDAP directory sync failed - SASL bind in progress
+15008544,LDAP directory sync failed - No such attribute
+15008545,LDAP directory sync failed - Undefined attribute type
+15008546,LDAP directory sync failed - Inappropriate matching
+15008547,LDAP directory sync failed - Constraint violation
+15008548,LDAP directory sync failed - Type or value exists
+15008549,LDAP directory sync failed - Invalid syntax
+15008550,LDAP directory sync failed - No such object
+15008551,LDAP directory sync failed - Alias problem
+15008552,LDAP directory sync failed - Invalid DN syntax
+15008553,LDAP directory sync failed - Is leaf
+15008554,LDAP directory sync failed - Alias dereference problem
+15008555,LDAP directory sync failed - Inappropriate authentication
+15008556,LDAP directory sync failed - Invalid credentials
+15008557,LDAP directory sync failed - Insufficient access
+15008558,LDAP directory sync failed - Server is busy
+15008530,LDAP directory sync failed - Operations error
+15008559,LDAP directory sync failed - Server is unavailable
+15008560,LDAP directory sync failed - Server is unwilling to perform
+15008561,LDAP directory sync failed - Loop detect
+15008562,LDAP directory sync failed - Naming violation
+15008563,LDAP directory sync failed - Object class violation
+15008564,LDAP directory sync failed - Not allowed on non-leaf
+15008565,LDAP directory sync failed - Not allowed on RDN
+15008566,LDAP directory sync failed - Already exists
+15008567,LDAP directory sync failed - No object class mods
+15008568,LDAP directory sync failed - Results too large
+15008569,LDAP directory sync failed - Affects multiple DSAS
+15008570,LDAP directory sync failed - Other
+15008571,LDAP directory sync failed - Cannot contact LDAP server
+15008572,LDAP directory sync failed - Local error
+15008573,LDAP directory sync failed - Encoding error
+15008574,LDAP directory sync failed - Decoding error
+15008575,LDAP directory sync failed - Timeout
+15008576,LDAP directory sync failed - Unknown authentication method
+15008577,LDAP directory sync failed - Search filter error
+15008578,LDAP directory sync failed - User cancelled
+15008579,LDAP directory sync failed - Parameter error
+15008580,LDAP directory sync failed - Out of memory
+15008581,LDAP directory sync failed - Connect error
+15008582,LDAP directory sync failed - Not supported
+15008583,LDAP directory sync failed - Control not found
+15008584,LDAP directory sync failed - No results returned
+15008585,LDAP directory sync failed - More results to return
+15008586,LDAP directory sync failed - Client loop
+15008587,LDAP directory sync failed - Referral limit exceeded
+16000,The proxy was in the scanner for too long - process stopped
+18000,Product lifetime
+18000403,Product lifetime - Product has reached end-of-life
+18000404,Product lifetime - Product is nearing end-of-life
+19000,Protocol conversation
+1900098,Protocol conversation - Attempting a connection to the onward server
+19000113,Protocol conversation - Unable to establish a connection to the onward server
+1900097,Protocol conversation - Established a connection with the onward server
+1900099,Protocol conversation - Client Request
+19000100,Protocol conversation - Appliance Request
+19000101,Protocol conversation - Server Response
+19000102,Protocol conversation - Appliance Response
+19000760,Protocol conversation - The undeliverable domain email was silently dropped
+19001,SSL certificate conversation failed
+19001221,SSL certificate conversation failed - No certificate available
+19001222,SSL certificate conversation failed - No fd connection
+19001223,SSL certificate conversation failed - SSL certificate verification failed on ACCEPT handshake
+19001224,SSL certificate conversation failed - SSL certificate verification failed on CONNECT handshake
+19001761,SSL certificate conversation failed - Connection certificate is revoked by the certificate authority
+19002,SSL certificate initialization
+19002226,SSL certificate initialization - Certificate loaded
+19003,SSL certificates initialization failed
+19003227,SSL certificates initialization failed - Missing certificate or key file
+19003228,SSL certificates initialization failed - SSL error using key file
+19003229,SSL certificates initialization failed - SSL error using certificate file
+19003230,SSL certificates initialization failed - SSL Certificate load failed
+19003241,SSL certificates initialization failed - SSL Certificate cipher load failed
+30000,HTTP request denied
+3000095,HTTP request denied - The verb is not permitted
+30000139,HTTP request denied - The request scheme is not permitted
+30000141,HTTP request denied - The port number is not permitted
+30000163,HTTP request denied - NTLM is not supported in explicit proxy mode
+30000164,HTTP request denied - NTLM is not supported when persistent connections are not enabled
+30000180,HTTP request denied - Client is not permitted to connect to this appliance
+30000181,HTTP request denied - Request not permitted
+30000345,HTTP request denied - HTML SCRIPT tags have been removed
+30000346,HTTP request denied - HTML APPLET tags have been removed
+30000347,HTTP request denied - HTML ActiveX tags have been removed
+30000348,HTTP request denied - Uploaded data has been altered in an unknown manner
+30000588,HTTP request denied - Proxy requests are forbidden
+30000589,HTTP request denied - Requests from the client user-agent are forbidden
+30000590,HTTP request denied - The content-type of the data being transferred is forbidden
+30000594,HTTP request denied - The data being uploaded contains forbidden content
+30000672,HTTP request denied - Cannot authenticate HTTP 0.9 requests. Requests denied
+30000701,HTTP request denied - Access to the requested type of instant messaging is forbidden
+30001,HTTP protocol conversation error
+30001121,HTTP protocol conversation error - The request header is invalid
+30001122,HTTP protocol conversation error - The response header is invalid
+30001143,HTTP protocol conversation error - The request header is too big
+30001144,HTTP protocol conversation error - The request header has too many header lines
+30001210,HTTP protocol conversation error - The URL requested from a proxy mode client does not have a path
+30001405,HTTP protocol conversation error - The URL requested from an explicit proxy mode client is invalid
+30001162,HTTP protocol conversation error - Error serving internal URL
+30001187,HTTP protocol conversation error - Unable to initialize the SSL sub-system
+30001190,HTTP protocol conversation error - The response header is too big
+30001191,HTTP protocol conversation error - The response header has too many header lines
+30001351,HTTP protocol conversation error - Data trickling aborted due to modification by scanner
+30001352,HTTP protocol conversation error - Data trickling aborted due to replacement by scanner
+30001366,HTTP protocol conversation error - There was a protocol error during the transfer of chunked data
+30001376,HTTP protocol conversation error - Unable to transfer SSL data
+30001397,HTTP protocol conversation error - Unable to send data to the client
+30001396,HTTP protocol conversation error - The client has closed the network conection to the appliance
+30001395,HTTP protocol conversation error - The conection was closed before all the expected data was received
+30001393,HTTP protocol conversation error - Unable to read the request body from the client
+30001394,HTTP protocol conversation error - Unable to send the request body to the server
+30002,HTTP protocol conversation success
+30003,FTP over HTTP protocol conversation error
+30003184,FTP over HTTP protocol conversation error - Unable to log on to the FTP server
+30003185,FTP over HTTP protocol conversation error - The FTP service is not available
+30003192,FTP over HTTP protocol conversation error - A line returned from the FTP server is too long
+30003186,FTP over HTTP protocol conversation error - The FTP download failed
+30003193,FTP over HTTP protocol conversation error - FTP upload failed
+30003367,FTP over HTTP protocol conversation error - Error reading FTP directory listing data from the server
+30003368,FTP over HTTP protocol conversation error - Error sending FTP directory listing data to the client
+30003369,FTP over HTTP protocol conversation error - Unable to send FTP command to the server
+30003370,FTP over HTTP protocol conversation error - Unable to read FTP response from the server
+30003371,FTP over HTTP protocol conversation error - FTP server has returned an unexpected response code
+30003372,FTP over HTTP protocol conversation error - Unable to parse the response from the FTP server
+30003373,FTP over HTTP protocol conversation error - Unable to parse the passive port number from the FTP server response
+30003374,FTP over HTTP protocol conversation error - Unable to establish an active FTP connection to the server
+30003375,FTP over HTTP protocol conversation error - Unable to parse the returned FTP directory listing text
+30003629,FTP over HTTP protocol conversation error - The passive port number from the FTP server response is forbidden
+30004,FTP over HTTP protocol conversation was successful
+30004194,FTP over HTTP protocol conversation was successful - FTP upload succeeded
+30005,HTTP proxy error
+30005392,HTTP proxy error - Input/output error
+30005377,HTTP proxy error - Memory allocation error
+30005398,HTTP proxy error - Error in download status page processing
+30006,HTTP proxy configuration error
+30006529,HTTP proxy configuration error - Unable to compile a regular expression
+30006643,HTTP proxy configuration error - Unable to determine the authentication broker
+30006660,HTTP proxy configuration error - Unable to open a required file
+30006661,HTTP proxy configuration error - Unable to parse the configuration information
+30007,Authentication action
+30007639,Authentication action - The client is being redirected for authorization
+30007644,Authentication action - Unable to parse the authorization cookie
+30007645,Authentication action - The authorization cookie MD5 does not match
+30007646,Authentication action - The authorization cookie version is invalid
+30007647,Authentication action - The authorization cookie has expired
+30007648,Authentication action - There are no cookies in the header
+30007649,Authentication action - There are no authorization cookies in the header
+30007650,Authentication action - No authorization cookies authenticated correctly
+30007651,Authentication action - Received redirection from authentication broker
+30007653,Authentication action - Error in the response from the authentication server
+30007654,Authentication action - Redirect to original URL after successful authorization
+30007655,Authentication action - Unable to handle an authentication handoff request
+50002,Protocol conversation error
+5000213,Protocol conversation error - Unrecognized Command
+5000214,Protocol conversation error - Duplicate HELO
+5000215,Protocol conversation error - Syntax Error
+5000216,Protocol conversation error - Duplicate MAIL FROM
+5000217,Protocol conversation error - MAIL FROM command was received after RCPT TO
+5000218,Protocol conversation error - RCPT TO command was received before MAIL FROM
+50002233,Protocol conversation error - STARTTLS after MAIL FROM
+5000233,Protocol conversation error - DATA Command received before RCPT TO
+5000219,Protocol conversation error - Invalid sender email address
+50002182,Protocol conversation error - Invalid recipient email address
+5000220,Protocol conversation error - From sender is postmaster
+5000222,Protocol conversation error - Command is not implemented
+50002198,Protocol conversation error - Postmaster address is invalid
+50002205,Protocol conversation error - MAIL FROM Command received before HELO of EHLO
+50002411,Protocol conversation error - DATA command received after BDAT
+50002220,Protocol conversation error - MAIL FROM command received before mandatory STARTTLS
+50002721,Protocol conversation error - Address masquerading error
+50002875,Protocol conversation error - TLS is mandatory for the recipient
+50002876,Protocol conversation error - TLS is forbidden for the recipient
+50003,Denial-of-service check triggered
+5000331,Denial-of-service check triggered - Maximum number of trivial commands has been exceeded
+5000342,Denial-of-service check triggered - Command length exceeded a configured limit
+50003103,Denial-of-service check triggered - Too many AUTH conversation commands
+5000343,Denial-of-service check triggered - Average data throughput is lower than a  configured limit
+5000321,Denial-of-service check triggered - Maximum number of recipients has been exceeded
+5000345,Denial-of-service check triggered - Configuration limit has been exceeded. SMTP will return 421 until a QUIT is received
+50004,DATA phase error
+5000439,DATA phase error - Maximum email size exceeded
+5000440,DATA phase error - Maximum line length exceeded
+5000441,DATA phase error - Maximum number of hops exceeded
+50005,Logging of the email status during processing
+50005418,Transport log. Receive and first delivery - Email dropped. The server is no longer available
+50005419,Transport log. Receive and first delivery - Email dropped. The client is no longer available
+5000575,Transport log. Receive and first delivery - The email has been received
+50005306,Transport log. Receive and first delivery - Email accepted and dropped
+50005305,Transport log. Receive and first delivery - Email blocked with SMTP Code 550
+50005420,Transport log. Receive and first delivery - Email blocked with SMTP Code 550. Connection closed
+5000579,Transport log. Receive and first delivery - Email Rejected
+5000578,Transport log. Receive and first delivery - Email Accepted
+50005215,Transport log. Receive and first delivery - The email is deferred for scanning
+50005214,Transport log. Receive and first delivery - The email is deferred for delivery after scanning
+50005183,Transport log. Receive and first delivery - Retryer is attempting delivery
+50005213,Transport log. Receive and first delivery - Retryer is attempting scan
+50005506,Transport log. Receive and first delivery - The email has been rejected due to directory harvesting
+50005702,Transport log. Receive and first delivery - DNS 'TXT' record lookup is done
+50005703,Transport log. Receive and first delivery - Short circuit check performed
+50005704,Transport log. Receive and first delivery - Behind MTA check performed
+50005705,Transport log. Receive and first delivery - Sender authentication/Real-time Blackhole List check performed
+50005706,Transport log. Receive and first delivery - Sender authentication/PTIN check performed
+50005707,Transport log. Receive and first delivery - Sender authentication/SPF classic check performed
+50005708,Transport log. Receive and first delivery - Sender authentication/SenderID check performed
+50005709,Transport log. Receive and first delivery - Sender authentication/DKIM signature verification performed
+5000583,Transport log. Receive and first delivery - Email Deferred
+50005506,Transport log. Receive and first delivery - The email has been rejected due to directory harvesting
+50005820,Transport log. Receive and first delivery - Forward confirmed reverse DNS checking
+50006,Email Status
+5000677,Email Status - Email Delivered
+5000683,Email Status - Email Deferred
+50006737,Email Status - The undeliverable email has been bounced
+5000679,Email Status - Email Rejected
+50006901,Email Status - The appliance is unable to deliver an email and configuration forbids sending an NDR
+50006305,Email Status - Email blocked with SMTP Code 550
+50006306,Email Status - Email accepted and dropped
+50006420,Email Status - Email blocked with SMTP Code 550. Connection closed
+5000684,Email Status - Email Deferred due to a response from the onward connection
+5000686,Email Status - The email is deferred. Delivery has not been attempted
+5000687,Email Status - The email is deferred. Timeout while attempting connection
+5000688,Email Status - The email is deferred. Nothing listening on the remote address
+5000689,Email Status - The email is deferred. Network is unreachable
+50006115,Email Status - The undeliverable email has been bounced
+50006116,Email Status - The undeliverable email has been bounced and dropped due to empty sender address
+50006335,Email Status - The email has been bounced due to a loop back destination
+50006309,Email Status - The bounced email has been dropped due to multiple bounces.
+50006130,Email Status - Sender denied due to Real-time Blackhole List check
+50006131,Email Status - Sender accepted and dropped due to Real-time Blackhole List check
+50006132,Email Status - Sender denied due to Anti-spam deny list match for connecting IP address
+50006133,Email Status - Sender accepted and dropped due to Anti-spam deny list match for connecting IP address
+50006134,Email Status - Sender denied due to Anti-spam deny list match for sender email address
+50006135,Email Status - Sender accepted and dropped due to Anti-spam deny list match for sender email address
+50006124,Email Status - Recipient denied due to Anti-Relay deny list match
+50006125,Email Status - Recipient denied. Not in Permit Relay list
+50006126,Email Status - Recipient accepted and dropped. Denied by Anti-Relay
+50006127,Email Status - Recipient accepted and dropped. Not in Permit Relay list
+50006216,Email Status - Sender has been denied due to routing characters
+50006217,Email Status - Sender accepted and dropped due to routing characters
+50006128,Email Status - Recipient denied due to routing character
+50006129,Email Status - Recipient accepted and dropped due to routing character
+50006628,Email Status - The non-deliverable email has been bounced and dropped due to configuration
+50006225,Email Status - SSL certificate error
+50007,Denied by anti-relay
+50007124,Denied by anti-relay - Recipient denied due to Anti-Relay deny list match
+50007125,Denied by anti-relay - Recipient denied. Not in Permit Relay list
+50007126,Denied by anti-relay - Recipient accepted and dropped. Denied by Anti-Relay
+50007127,Denied by anti-relay - Recipient accepted and dropped. Not in Permit Relay list
+50007128,Denied by anti-relay - Recipient denied due to routing character
+50007129,Denied by anti-relay - Recipient accepted and dropped due to routing character
+50007216,Denied by anti-relay - Sender has been denied due to routing characters
+50007217,Denied by anti-relay - Sender accepted and dropped due to routing characters
+50008,Sender authentication. Denied list triggered
+50008253,Sender authentication. Denied list triggered - Accept and drop
+50008254,Sender authentication. Denied list triggered - Reject
+50008255,Sender authentication. Denied list triggered - Reject and close the connection
+50008256,Sender authentication. Denied list triggered - Reject
+50009,Delivery
+50009136,Delivery - The email address is an Address Literal (that is
+50009123,Delivery - The email address matched a domain relay delivery rule
+500095124,Delivery - The email address matched a fallback relay delivery rule.
+50009421,Delivery - The email address matched an LDAP delivery rule
+50009137,Delivery - DNS 'MX' record lookup successful
+50009138,Delivery - DNS 'A' record lookup successful
+50009422,Delivery - Scanner hit email routed to policy based relay
+50009423,Delivery - Allowed through email routed to policy based relay
+50010,DNS lookup failed
+50010199,DNS lookup failed - Non-existent domain
+50010200,DNS lookup failed - No DNS 'MX' records
+50010201,DNS lookup failed - Server Failure
+50010202,DNS lookyouup failed - No DNS 'A' records
+50011,Timeout occurred
+5001138,Timeout occurred - Command timed out
+5001144,Timeout occurred - DATA phase read time exceeded a configured limit
+50012,Quarantine
+50012307,Quarantine - Email delivered to quarantine
+5001272,Quarantine - State of an object
+50013,Sender authentication. Permit/deny list information
+50013313,Sender authentication. Permit/deny list information - Due to permit list match
+50014,Permitted by anti-relay rule
+50014313,Permitted by anti-relay rule - Due to permit list match
+50014315,Permitted by anti-relay rule - Due to Anti-Relay local list match
+50014316,Permitted by anti-relay rule - Due to open relay
+50015,Directory harvest check triggered
+50015406,Directory harvest check triggered - No action because the client is in the permit list
+50015407,Directory harvest check triggered - Tarpitting started
+50015408,Directory harvest check triggered - Connection closed. Client address added to the deny list
+50015409,Directory harvest check triggered - Connection closed
+50015410,Directory harvest check triggered - Email deleted
+50016,Anti-spam submission
+50016500,Anti-spam submission - Submission triggered the anti-virus scanner. The email has been rejected
+50016501,Anti-spam submission - Submission was incorrectly formatted. The email has been rejected
+50019,User blacklist & whitelist error
+50019107,User blacklist & whitelist error - Creation of an object has failed
+50019328,User blacklist & whitelist error - Failed
+50019591,User blacklist & whitelist error - Unable to take a local copy of the user blacklists & whitelists
+50020,User blacklist & whitelist LDAP Error
+50020531,User blacklist & whitelist LDAP Error - Protocol error
+50020532,User blacklist & whitelist LDAP Error - Time limit exceeded
+50020533,User blacklist & whitelist LDAP Error - Size limit exceeded
+50020534,User blacklist & whitelist LDAP Error - Compare false
+50020535,User blacklist & whitelist LDAP Error - Compare true
+50020536,User blacklist & whitelist LDAP Error - Authentication method not supported
+50020537,User blacklist & whitelist LDAP Error - Strong authentication required
+50020538,User blacklist & whitelist LDAP Error - Partial results and referral received
+50020539,User blacklist & whitelist LDAP Error - Referral
+50020540,User blacklist & whitelist LDAP Error - Administration limit exceeded
+50020541,User blacklist & whitelist LDAP Error - Critical extension is unavailable
+50020542,User blacklist & whitelist LDAP Error - Confidentiality required
+50020543,User blacklist & whitelist LDAP Error - SASL bind in progress
+50020544,User blacklist & whitelist LDAP Error - No such attribute
+50020545,User blacklist & whitelist LDAP Error - Undefined attribute type
+50020546,User blacklist & whitelist LDAP Error - Inappropriate matching
+50020547,User blacklist & whitelist LDAP Error - Constraint violation
+50020548,User blacklist & whitelist LDAP Error - Type or value exists
+50020549,User blacklist & whitelist LDAP Error - Invalid syntax
+50020550,User blacklist & whitelist LDAP Error - No such object
+50020551,User blacklist & whitelist LDAP Error - Alias problem
+50020552,User blacklist & whitelist LDAP Error - Invalid DN syntax
+50020553,User blacklist & whitelist LDAP Error - Is leaf
+50020554,User blacklist & whitelist LDAP Error - Alias dereference problem
+50020555,User blacklist & whitelist LDAP Error - Inappropriate authentication
+50020556,User blacklist & whitelist LDAP Error - Invalid credentials
+50020557,User blacklist & whitelist LDAP Error - Insufficient access
+50020558,User blacklist & whitelist LDAP Error - Server is busy
+50020530,User blacklist & whitelist LDAP Error - Operations error
+50020559,User blacklist & whitelist LDAP Error - Server is unavailable
+50020560,User blacklist & whitelist LDAP Error - Server is unwilling to perform
+50020561,User blacklist & whitelist LDAP Error - Loop detect
+50020562,User blacklist & whitelist LDAP Error - Naming violation
+50020563,User blacklist & whitelist LDAP Error - Object class violation
+50020564,User blacklist & whitelist LDAP Error - Not allowed on non-leaf
+50020565,User blacklist & whitelist LDAP Error - Not allowed on RDN
+50020566,User blacklist & whitelist LDAP Error - Already exists
+50020567,User blacklist & whitelist LDAP Error - No object class mods
+50020568,User blacklist & whitelist LDAP Error - Results too large
+50020569,User blacklist & whitelist LDAP Error - Affects multiple DSAS
+50020570,User blacklist & whitelist LDAP Error - Other
+50020571,User blacklist & whitelist LDAP Error - Cannot contact LDAP server
+50020572,User blacklist & whitelist LDAP Error - Local error
+50020573,User blacklist & whitelist LDAP Error - Encoding error
+50020574,User blacklist & whitelist LDAP Error - Decoding error
+50020575,User blacklist & whitelist LDAP Error - Timeout
+50020576,User blacklist & whitelist LDAP Error - Unknown authentication method
+50020577,User blacklist & whitelist LDAP Error - Search filter error
+50020578,User blacklist & whitelist LDAP Error - User cancelled
+50020579,User blacklist & whitelist LDAP Error - Parameter error
+50020580,User blacklist & whitelist LDAP Error - Out of memory
+50020581,User blacklist & whitelist LDAP Error - Connect error
+50020582,User blacklist & whitelist LDAP Error - Not supported
+50020583,User blacklist & whitelist LDAP Error - Control not found
+50020584,User blacklist & whitelist LDAP Error - No results returned
+50020585,User blacklist & whitelist LDAP Error - More results to return
+50020586,User blacklist & whitelist LDAP Error - Client loop
+50020587,User blacklist & whitelist LDAP Error - Referral limit exceeded
+50021,Recipient delivery state
+5002172,Recipient delivery state - State of an object
+50022,Logging of the email status during McAfee Quarantine Manager processing
+50022604,Transport log. McAfee Quarantine Manager - The email has been sent to McAfee Quarantine Manager
+50022605,Transport log. McAfee Quarantine Manager - The email is deferred. McAfee Quarantine Manager failure
+50022606,Transport log. McAfee Quarantine Manager - The email has been received from McAfee Quarantine Manager for delivery
+50022602,Transport log. McAfee Quarantine Manager - Email deleted after exceeding maximum retry period
+50023,Reputation service triggered
+50023250,Reputation service triggered - Allow through action
+50023251,Reputation service triggered - Tarpit
+50023252,Reputation service triggered - Add a score
+50023253,Reputation service triggered - Accept and drop
+50023254,Reputation service triggered - Reject
+50023255,Reputation service triggered - Reject and close the connection
+50023256,Reputation service triggered - Reject
+50024,Reputation service lookup failed
+50024218,Reputation service lookup failed - Unable to sign query
+50024219,Reputation service lookup failed - Unable to make query
+50025,Transport Layer Security (TLS)
+50025231,Transport Layer Security (TLS) - TLS used to receive email
+50025232,Transport Layer Security (TLS) - TLS used to send email
+50026,SMTP temporary error
+50026235,SMTP temporary error - SMTP Response To Client
+50026236,SMTP temporary error - SMTP Response From Server
+50026237,SMTP temporary error - SMTP Connection Closed
+50027,SMTP permanent error
+50027235,SMTP permanent error - SMTP Response To Client
+50027236,SMTP permanent error - SMTP Response From Server
+50027237,SMTP permanent error - SMTP Connection Closed
+50028,Cumulative threshold exceeded
+50028250,Cumulative threshold exceeded - Allow through action
+50028251,Cumulative threshold exceeded - Tarpit
+50028252,Cumulative threshold exceeded - Add a score
+50028253,Cumulative threshold exceeded - Accept and drop
+50028254,Cumulative threshold exceeded - Reject
+50028255,Cumulative threshold exceeded - Reject and close the connection
+50028256,Cumulative threshold exceeded - Reject
+50028407,Cumulative threshold exceeded - Tarpitting started
+50029,Sender Policy Framework (SPF) initialization failed
+50029242,Sender Policy Framework (SPF) initialization failed - Missing or invalid IP address
+50029243,Sender Policy Framework (SPF) initialization failed - Missing or invalid Sender address
+50029244,Sender Policy Framework (SPF) initialization failed - Missing or invalid HELO
+50029247,Sender Policy Framework (SPF) initialization failed - Missing or invalid data
+50029246,Sender Policy Framework (SPF) initialization failed - SPF request failed
+50029248,Sender Policy Framework (SPF) initialization failed - SPF Explanation for failed request
+50030,Sender Policy Framework (SPF) sender failed check
+50030251,Sender Policy Framework (SPF) sender failed check - Tarpit
+50030252,Sender Policy Framework (SPF) sender failed check - Add a score
+50030253,Sender Policy Framework (SPF) sender failed check - Accept and drop
+50030254,Sender Policy Framework (SPF) sender failed check - Reject
+50030255,Sender Policy Framework (SPF) sender failed check - Reject and close the connection
+50030256,Sender Policy Framework (SPF) sender failed check - Reject
+50030250,Sender Policy Framework (SPF) sender failed check - Allow through action
+50031,Sender Policy Framework (SPF) sender passed check
+50031250,Sender Policy Framework (SPF) sender passed check - Allow through action
+50031252,Sender Policy Framework (SPF) sender passed check - Add a score
+50032,Sender ID initialization failed
+50032242,Sender ID initialization failed - Missing or invalid IP address
+50032243,Sender ID initialization failed - Missing or invalid Sender address
+50032244,Sender ID initialization failed - Missing or invalid HELO
+50032247,Sender ID initialization failed - Missing or invalid data
+50032245,Sender ID initialization failed - Missing or invalid Purported Responsible address
+50032246,Sender ID initialization failed - SPF request failed
+50033,Sender ID sender failed check
+50033251,Sender ID sender failed check - Tarpit
+50033252,Sender ID sender failed check - Add a score
+50033253,Sender ID sender failed check - Accept and drop
+50033254,Sender ID sender failed check - Reject
+50033255,Sender ID sender failed check - Reject and close the connection
+50033256,Sender ID sender failed check - Reject
+50033250,Sender ID sender failed check - Allow through action
+50034,Sender ID sender passed check
+50034250,Sender ID sender passed check - Allow through action
+50034252,Sender ID sender passed check - Add a score
+50035,Real-time Blackhole List lookup error
+50035683,Real-time Blackhole List lookup error - Real-time Blackhole List lookup query error
+50036,Real-time Blackhole List lookup triggered
+50036251,Real-time Blackhole List lookup triggered - Tarpit
+50036252,Real-time Blackhole List lookup triggered - Add a score
+50036253,Real-time Blackhole List lookup triggered - Accept and drop
+50036254,Real-time Blackhole List lookup triggered - Reject
+50036255,Real-time Blackhole List lookup triggered - Reject and close the connection
+50036256,Real-time Blackhole List lookup triggered - Reject
+50036250,Real-time Blackhole List lookup triggered - Allow through action
+50036687,Real-time Blackhole List lookup triggered - Real-time Blackhole List match found
+50037,Real-time Blackhole List failed to trigger
+50037250,Real-time Blackhole List failed to trigger - Allow through action
+50037688,Real-time Blackhole List failed to trigger - Real-time Blackhole List match not found
+50038,Permit recipient failure triggered
+50038251,Permit recipient failure triggered - Tarpit
+50038252,Permit recipient failure triggered - Add a score
+50038253,Permit recipient failure triggered - Accept and drop
+50038254,Permit recipient failure triggered - Reject
+50039,Permit recipient test passed
+50039250,Permit recipient test passed - Allow through action
+50040,DomainKeys Identified Mail (DKIM) failed
+50040252,DomainKeys Identified Mail (DKIM) failed - Add a score
+50040253,DomainKeys Identified Mail (DKIM) failed - Accept and drop
+50040254,DomainKeys Identified Mail (DKIM) failed - Reject
+50040255,DomainKeys Identified Mail (DKIM) failed - Reject and close the connection
+50040256,DomainKeys Identified Mail (DKIM) failed - Reject
+50040250,DomainKeys Identified Mail (DKIM) failed - Allow through action
+50040684,DomainKeys Identified Mail (DKIM) failed - Invalid configuration value
+50040685,DomainKeys Identified Mail (DKIM) failed - DKIM error
+50041,DomainKeys Identified Mail (DKIM) was successful
+50041250,DomainKeys Identified Mail (DKIM) was successful - Allow through action
+50041252,DomainKeys Identified Mail (DKIM) was successful - Add a score
+50042,DomainKeys Identified Mail (DKIM) error
+50042686,DomainKeys Identified Mail (DKIM) error - Private key caching error
+50042685,DomainKeys Identified Mail (DKIM) error - DKIM error
+50045,Bounce Address Tag Validation check failed to validate
+50045759,Bounce Address Tag Validation check failed to validate - The BATV tag value could not be validated
+50046,McAfee GTI message reputation IP lookup error
+50046769,McAfee GTI message reputation IP lookup error - McAfee GTI message reputation lookup query error
+50046777,McAfee GTI message reputation IP lookup error - McAfee GTI message reputation lookup query timed out
+50047,McAfee GTI message reputation IP lookup triggered
+50047251,McAfee GTI message reputation IP lookup triggered - Tarpit
+50047252,McAfee GTI message reputation IP lookup triggered - Add a score
+50047253,McAfee GTI message reputation IP lookup triggered - Accept and drop
+50047254,McAfee GTI message reputation IP lookup triggered - Reject
+50047255,McAfee GTI message reputation IP lookup triggered - Reject and close the connection
+50047256,McAfee GTI message reputation IP lookup triggered - Reject
+50047250,McAfee GTI message reputation IP lookup triggered - Allow through action
+50047766,McAfee GTI message reputation IP lookup triggered - McAfee GTI message reputation Lookup hit the configured threshold
+50048,McAfee GTI message reputation IP lookup failed to trigger
+50048767,McAfee GTI message reputation IP lookup failed to trigger - McAfee GTI message reputation lookup is succesful with the reputation score less than the configured threshold
+50049,McAfee GTI message reputation message lookup error
+50049769,McAfee GTI message reputation message lookup error - McAfee GTI message reputation lookup query error
+50049777,McAfee GTI message reputation message lookup error - McAfee GTI message reputation lookup query timed out
+50050,McAfee GTI message reputation message lookup triggered
+50050251,McAfee GTI message reputation message lookup triggered - Tarpit
+50050252,McAfee GTI message reputation message lookup triggered - Add a score
+50050253,McAfee GTI message reputation message lookup triggered - Accept and drop
+50050254,McAfee GTI message reputation message lookup triggered - Reject
+50050255,McAfee GTI message reputation message lookup triggered - Reject and close the connection
+50050256,McAfee GTI message reputation message lookup triggered - Reject
+50050250,McAfee GTI message reputation message lookup triggered - Allow through action
+50050766,McAfee GTI message reputation message lookup triggered - McAfee GTI message reputation Lookup hit the configured threshold
+50051,McAfee GTI message reputation message lookup failed to trigger
+50051250,McAfee GTI message reputation message lookup failed to trigger - Allow through action
+50051767,McAfee GTI message reputation message lookup failed to trigger - McAfee GTI message reputation lookup is succesful with the reputation score less than the configured threshold
+50052,Blackhole given recipients.
+50052770,Blackhole given recipients. - Recipient should not receive the email due to the delivery address being configured as the blackhole address.
+50053,Using encrypted delivery for email
+50053778,Using encrypted delivery for email - Email deferred for encrypted delivery.
+50054,Logging to Feedback client failed
+50054787,Logging to Feedback client failed - File for Stats Collection is over maximum size
+50054788,Logging to Feedback client failed - File for Stats Collection is not initialised
+50055,Transmitting Stats Data to Feedback Servers failed
+50055789,Transmitting Stats Data to Feedback Servers failed - Timeout while transmitting Stats Collection Data
+50055784,Transmitting Stats Data to Feedback Servers failed - Failed due to error in network connection
+50055790,Transmitting Stats Data to Feedback Servers failed - No Pending Stats Collection data to transmit
+50056,Feedback SDK Initialisation Failed
+50056791,Feedback SDK Initialisation Failed - Feedback client internal error
+50057,Forward confirmed reverse DNS lookup error
+50057683,Forward confirmed reverse DNS lookup error - Real-time Blackhole List lookup query error
+50058,Forward confirmed reverse DNS failed to match
+50058251,Forward confirmed reverse DNS failed to match - Tarpit
+50058252,Forward confirmed reverse DNS failed to match - Add a score
+50058253,Forward confirmed reverse DNS failed to match - Accept and drop
+50058254,Forward confirmed reverse DNS failed to match - Reject
+50058255,Forward confirmed reverse DNS failed to match - Reject and close the connection
+50058256,Forward confirmed reverse DNS failed to match - Reject
+50058250,Forward confirmed reverse DNS failed to match - Allow through action
+50058819,Forward confirmed reverse DNS failed to match - Forward confirmed reverse DNS match not found
+50059,Forward confirmed reverse DNS succeeded
+50059250,Forward confirmed reverse DNS succeeded - Allow through action
+50059252,Forward confirmed reverse DNS succeeded - Add a score
+50059818,Forward confirmed reverse DNS succeeded - Forward confirmed reverse DNS match found
+50060,Passing secure conversation straight through
+50060830,Passing secure conversation straight through - Passing off connection to the onward server
+50100,Hybrid connection information
+50100840,Hybrid connection information - Switched into Hybrid mode
+50100841,Hybrid connection information - Processing X-MXL-IP
+50100842,Hybrid connection information - Processing X-MXL-IP failed
+50100843,Hybrid connection information - Processing X-MXL-SCANRESULT
+50100844,Hybrid connection information - Processing X-MXL-SCANRESULT failed
+50061,Secure Web Mail
+50061354,Secure Web Mail - Logon successful
+50061355,Secure Web Mail - Logon failed
+50061356,Secure Web Mail - The user logged off
+50061357,Secure Web Mail - The session has expired
+50062,SMTP protocol conversation
+50062834,SMTP protocol conversation - ldap user name corresponsing to email address is resolved
+50062835,SMTP protocol conversation - ldap user name corresponsing to email address is not resolved
+50062836,SMTP protocol conversation - set ldap result corresponsing to email address
+50062837,SMTP protocol conversation - Resolved identity corresponding to email address
+70000,Undelivered email file access
+70000117,Undelivered email file access - Check message format
+70001,Undelivered email file context
+70001118,Undelivered email file context - Message delivery can be attempted
+70002,Retry attempt failed
+70002119,Retry attempt failed - Cannot open directory
+70002120,Retry attempt failed - Cannot open the index file
+7000219,Retry attempt failed - Invalid sender email address
+70002182,Retry attempt failed - Invalid recipient email address
+70002197,Retry attempt failed - Unable to load policy
+70002719,Retry attempt failed - Database pool management error
+70002717,Retry attempt failed - Error connecting to the database
+70002718,Retry attempt failed - Error executing SQL in the database
+70002722,Retry attempt failed - Error connecting to the MTA
+70002723,Retry attempt failed - MTA connection reset has occurred
+70002724,Retry attempt failed - Error parsing the response from MTA
+70002725,Retry attempt failed - Invalid response received from MTA
+70003,Retryer error
+70003717,Retryer error - Error connecting to the database
+70003722,Retryer error - Error connecting to the MTA
+70003679,Retryer error - Error spawning new thread
+70003727,Retryer error - Retryer error
+80000,Greylisting service command failed
+80000676,Greylisting service command failed - Invalid input from SMTP proxy
+80001,Greylisting database failed
+80001677,Greylisting database failed - Database error
+80002,Greylisting startup error
+80002678,Greylisting startup error - Error setting TCP option
+80002679,Greylisting startup error - Error spawning new thread
+80002680,Greylisting startup error - Proxy error
+80003,Greylisting database error
+80003681,Greylisting database error - SQL query execution error
+80004,Greylisting information
+80004682,Greylisting information - Automatic database maintenance done
+180000,Anti-virus engine detection
+180000145,Anti-virus engine detection - The content was categorized as cleanable content
+180000146,Anti-virus engine detection - The content was categorized as uncleanable content
+180000624,Anti-virus engine detection - The content was categorized as a Potentially Unwanted Program
+180000625,Anti-virus engine detection - The content was categorized as a Packer
+180001,Content rule detection
+180001146,Content rule detection - The content was categorized as uncleanable content
+180002,Anti-spam classification
+180002161,Anti-spam classification - The content was categorized as spam
+180002206,Anti-spam classification - The content was categorized as non-spam
+180002623,Anti-spam classification - The content was categorized as possible phish
+180003,File format detection
+180003146,File format detection - The content was categorized as uncleanable content
+180003817,File format detection - The file format was categorized as non-compliant
+180003821,File format detection - The file was classified as a DoS
+180004,MIME format detection
+180004146,MIME format detection - The content was categorized as uncleanable conten
+180004590,MIME format detection - The content-type of the data being transferred is forbidden
+180005,Scan actions
+180005305,Scan actions - Email blocked with SMTP Code 550
+180005420,Scan actions - Email blocked with SMTP Code 550. Connection closed
+180005308,Scan actions - Content blocked
+180005422,Scan actions - Scanner hit email routed to policy based relay
+180005306,Scan actions - Email accepted and dropped
+180005300,Scan actions - Signature not broken due to policy. Email delivered to the original recipients(s)
+180005302,Scan actions - Content replaced with HTML due to policy. Modified email delivered to the original recipients(s)
+180005303,Scan actions - Content removed due to policy. Modified email delivered to the original recipients(s)
+180005304,Scan actions - Content cleaned due to policy. Modified email delivered to the original recipients(s)
+180005301,Scan actions - Broken signature due to policy. Modified email delivered to the original recipient(s)
+180005188,Scan actions - Allow through. Original email delivered to the original recipient(s)
+180005353,Scan actions - Allow through. Data to be delivered to the peer
+180005349,Scan actions - Allow through. Data to be delivered to the server
+180005350,Scan actions - Allow through. Data to be delivered to the client
+180005154,Scan actions - Original email quarantined
+180005155,Scan actions - Modified email quarantined
+180005778,Scan actions - Email deferred for encrypted delivery.
+180005870,Scan actions - Email deferred for custom notification
+180006,Scan action failed
+180006168,Scan action failed - Unable to quarantine original email
+180006169,Scan action failed - Unable to quarantine modified email
+180006209,Scan action failed - Unable to quarantine the modified email. No modified email
+18000639,Scan action failed - Maximum email size exceeded
+180006779,Scan action failed - Unable to defer email for encrypted delivery.
+180006871,Scan action failed - Unable to defer email for custom notification
+180006872,Scan action failed - Unable to deliver the modified email because no modified email found
+180006873,Scan action failed - Unable to deliver email because no recipient configured
+180006874,Scan action failed - Unable to deliver the original email because it triggered the anti-virus scanner
+180006885,Scan action failed - An error occurred attempting to take an action
+180006166,Scan action failed - Unable to deliver a notification email to the original recipient(s)
+180006167,Scan action failed - Unable to parse a notification email sender address(s)
+180007,Scanner failed
+180007189,Scanner failed - Unable to scan item
+180007195,Scanner failed - Unable to set up scan policy
+180007196,Scanner failed - Invalid scanner action
+180007776,Scanner failed - Failed to get response for McAfee GTI file reputation Queries
+180007851,Scanner failed - One or more of the URL Reputation network lookups timed out or failed
+180007852,Scanner failed - Failed to decode URL Reputation network lookup response
+180007853,Scanner failed - An error occurred while looking up the reputation of URLs from the network
+18000772,Scanner failed - State of an object
+180008,URL request denied
+180008140,URL request denied - The requested URL contains forbidden characters
+180008142,URL request denied - Access to the requested URL is not permitted
+180009,HTML content detection
+180009345,HTML content detection - HTML SCRIPT tags have been removed
+180009347,HTML content detection - HTML ActiveX tags have been removed
+180009346,HTML content detection - HTML APPLET tags have been removed
+180010,Compliancy detection
+180010728,Compliancy detection - The content was categorized as non-compliant
+180011,Data Loss Prevention (DLP) detection
+180011689,Data Loss Prevention (DLP) detection - The content was categorized as protected content
+180012,Mail Size detection
+18001239,Mail Size detection - Maximum email size exceeded
+180012146,Mail Size detection - The content was categorized as uncleanable content
+180013,Regular expression scanning failure
+180013762,RegEx scanning failure - Error processing regular expression
+180013763,RegEx scanning failure - Syntax error in a regular expression
+180014,Image Filtering detection
+180014800,Image Filtering detection - The content was categorized as inappropriate content
+180015,Policy based action occurred
+180015860,Policy based action occurred - Action taken due to the policy configuration
+180015861,Policy based action occurred - An error occurred attempting to take an action
+180016,Avira Anti-virus engine detection
+180016145,Avira Anti-virus engine detection - The content was categorized as cleanable content
+180016146,Avira Anti-virus engine detection - The content was categorized as uncleanable content
+180016624,Avira Anti-virus engine detection - The content was categorized as a Potentially Unwanted Program
+180016625,Avira Anti-virus engine detection - The content was categorized as a Packer
+180017,CommtouchÂ® Command Anti-virus engine detection
+180017145,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as cleanable content
+180017146,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as uncleanable content
+180017624,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as a Potentially Unwanted Program
+180017625,CommtouchÂ® Command Anti-virus engine detection - The content was categorized as a Packer
+180018,Mail URL Reputation detection
+180018849,Mail URL Reputation detection - Unsafe URL(s) found in the message
+180018850,Mail URL Reputation detection - Too many URLs found in the message
+180018890,Mail URL Reputation detection - URLs rewritten by ClickProtect
+180018891,Mail URL Reputation detection - Could not ClickProtect URLs in the original email
+180019,Unscannable Content
+180019854,Unscannable Content - Too many unsuccessful scan attempts
+180019855,Unscannable Content - An error occurred attempting to take an action
+180022,Advanced Threat Defense
+180022882,Advanced Threat Defense - ATD scan timed out
+180022883,Advanced Threat Defense - Too many files queued for ATD
+180022884,Advanced Threat Defense - ATD scan failed
+180022885,Advanced Threat Defense - An error occurred attempting to take an action
+180024,Advanced Threat Defense Scanning Flow
+180024886,Advanced Threat Defense Scanning Flow - File submitted for scanning on ATD
+180024892,Advanced Threat Defense Scanning Flow - Result for file submitted for scanning by ATD
+180024887,Advanced Threat Defense Scanning Flow - File previously submitted to ATD
+180024893,Advanced Threat Defense Scanning Flow - File is in whitelist
+180024894,Advanced Threat Defense Scanning Flow - File is in blacklist
+180024888,Advanced Threat Defense Scanning Flow - Failed to submit file to ATD
+180024895,Advanced Threat Defense Scanning Flow - Failed to scan file with ATD
+180024896,Advanced Threat Defense Scanning Flow - Unable to obtain result of scan from ATD
+180024889,Advanced Threat Defense Scanning Flow - Read a result from the ATD cache
+180024880,Advanced Threat Defense Scanning Flow - Email deferred for ATD scanning
+180024897,Advanced Threat Defense Scanning Flow - The MATD scan has been cancelled
+180025,Advanced Threat Defense Detection
+180025881,Advanced Threat Defense Detection - ATD threshold level exceeded
+180030,URL reputation has been temporarily disabled
+180030626,URL reputation has been temporarily disabled - Unable to load the web categorization database
+180030627,URL reputation has been temporarily disabled - Unable to initialize the McAfee GTI web categorization engine
+180031,URL has been blocked due to categorization
+180031611,URL has been blocked due to categorization - URL categorized by web categorization
+180032,URL has been coached due to categorization
+180032611,URL has been coached due to categorization - URL categorized by web categorization
+180032612,URL has been coached due to categorization - Access to a coached URL permitted
+180033,Categorized URL has been permitted
+180033611,Categorized URL has been permitted - URL categorized by web categorization
+180034,URL reputation summary data for ePO
+180034619,URL reputation summary data for ePO - Web categorization ePolicy Orchestrator summary
+180035,Categorized URL has been permitted for a monitored user
+180035611,Categorized URL has been permitted for a monitored user - URL categorized by web categorization
+180036,McAfee GTI web reputation has been temporarily disabled
+180036626,McAfee GTI web reputation has been temporarily disabled - Unable to load the web categorization database
+180036627,McAfee GTI web reputation has been temporarily disabled - Unable to initialize the McAfee GTI web categorization engine
+180041,Avira AV Scanner has been temporarily disabled
+180041801,Avira AV Scanner has been temporarily disabled - Engine file initialisation failed
+180041802,Avira AV Scanner has been temporarily disabled - DAT file initialisation failed
+180042,CommtouchÂ® Command AV Scanner has been temporarily disabled
+180042801,CommtouchÂ® Command AV Scanner has been temporarily disabled - Engine file initialisation failed
+180042802,CommtouchÂ® Command AV Scanner has been temporarily disabled - DAT file initialisation failed
+181000,Transfer of events to SmartReporter
+181000640,Transfer of events to SmartReporter - Transfer started
+181000641,Transfer of events to SmartReporter - Transfer succeeded
+181000642,Transfer of events to SmartReporter - Transfer failed
+181000109,Transfer of events to SmartReporter - Request denied. Unable to authenticate user
+182000,Authentication broker
+182000662,Authentication broker - NTLM authentication failed
+182000663,Authentication broker - Incorrect response from the NTLM authentication manager
+182000664,Authentication broker - Unable to connect to NTLM authentication manager
+182000665,Authentication broker - Incorrect response from NTLM authentication YR command
+182000666,Authentication broker - No context for final NTLM authentication request
+182000667,Authentication broker - Unable to connect to NTLM authentication manager
+182000668,Authentication broker - Missing secret file
+182000669,Authentication broker - Incorrect URL from HTTP proxy
+182001,Authentication broker
+182001670,Authentication broker - Setup authentication server OK
+182001671,Authentication broker - Setup authentication server failed
+185000,Objects are clean. No action taken
+185000726,Objects are clean. No action taken - This conversation is pristine
+190010,Load balance appliance install
+190011,Load balance appliance booting
+190012,Load balance appliance OK
+190013,Load balance appliance shutdown
+190014,Load balance appliance failure
+190015,Load balance appliance disabled
+190016,Load balance appliance timed out
+190032,This appliance is the network appliance
+190033,This appliance is a redundant appliance
+190034,This appliance is synchronizing with the management appliance
+190035,This appliance is being ignored
+190036,This appliance has failed to install
+200000,Statistics
+200001,Periodic Statistics
+210000,Resource failed
+210000106,Resource failed - A disk is full
+210000107,Resource failed - Creation of an object has failed
+210000203,Resource failed - Unable to write file to disk
+210000717,Resource failed - Error connecting to the database
+210000718,Resource failed - Error executing SQL in the database
+210000720,Resource failed - Resource synchronization error
+210001,Resource usage is OK
+210002,Resource usage reached warning level
+210003,Resource usage reached critical level
+210013,Resource usage is OK
+210014,Resource usage reached warning level
+210015,Resource usage reached critical level
+210004,Raid disk state has changed
+210004336,Raid disk state has changed - The RAID disk is optimal
+210004337,Raid disk state has changed - The RAID disk is degraded
+210004338,Raid disk state has changed - The RAID disk is being rebuilt
+210005,Protocol state has changed
+210005340,Protocol state has changed - The specific protocol is available
+210005339,Protocol state has changed - The specific protocol has failed
+210005904,Protocol state has changed - The specific protocol is in a critical condition
+210006,Bridge state has changed
+210006416,Bridge state has changed - The bridge is forwarding
+210006417,Bridge state has changed - The bridge is blocking
+210007,Appliance throughput limit
+210007597,Appliance throughput limit - The appliance is approaching its throughput limit
+210007596,Appliance throughput limit - The appliance has exceeded its throughput limit
+210009,Bypass switch state has changed
+210009656,Bypass switch state has changed - The bypass switch is present
+210009657,Bypass switch state has changed - The bypass switch is not present
+210009658,Bypass switch state has changed - The bypass switch is in bypass mode
+210009659,Bypass switch state has changed - The bypass switch is online
+210009673,Bypass switch state has changed - Unable to apply configuration to bypass switch
+210009674,Bypass switch state has changed - Configured bypass switch successfully
+210009675,Bypass switch state has changed - Communications failure with the bypass device
+210010,An Appliance address has changed
+210010735,An Appliance address has changed - New IP Address has been allocated to an interface
+210010736,An Appliance address has changed - An IP Address has been removed from an interface
+210011,MA state has changed
+210011756,MA state has changed - Connectivity is available
+210011757,MA state has changed - Connectivity is not available
+210011744,MA state has changed - Number of files reached threshold
+210011754,MA state has changed - Communication timeout
+210011755,MA state has changed - Process is not running
+21001152,MA state has changed - Network application was started
+21001153,MA state has changed - Network application has finished
+210012,Link has changed state
+210012816,Link has changed state - Information about the network link
+210050,The UPS mains power has returned
+210050745,The UPS mains power has returned - Mains supply to the UPS has been restored
+210051,The UPS mains power has failed
+210051746,The UPS mains power has failed - Mains supply to the UPS has failed
+210052,The UPS battery is low
+210052747,The UPS battery is low - The charge level in the UPS battery is low
+210053,The UPS has requested that the system shutdown
+210053748,The UPS has requested that the system shutdown - The UPS has requested that the system is shut down
+210053749,The UPS has requested that the system shutdown - The UPS system has requested that the system is shut down after the configured time on battery
+210054,The UPS communications status has changed
+210054750,The UPS communications status has changed - Communications with the UPS has been established
+210054751,The UPS communications status has changed - Communications with the UPS has been interrupted
+210054752,The UPS communications status has changed - Communications with the UPS has been lost
+210055,The UPS battery needs replacing
+210055753,The UPS battery needs replacing - The UPS has signalled that its battery has reached the end of its life and requires replacement
+210060,Chassis configuration has changed and needs to be applied to the hardware
+210060780,Chassis configuration has changed and needs to be applied to the hardware - The chassis configuration has changed and needs reapplying
+210061,Chassis status has changed
+210061781,Chassis status has changed - A component of the chassis is now OK
+210061782,Chassis status has changed - A component of the chassis is not functioning correctly
+210061783,Chassis status has changed - A component of the chassis has failed
+210070,The appliance hardware monitoring has spotted a change
+210070803,The appliance hardware monitoring has spotted a change - A hardware component of the appliance is now OK
+210070804,The appliance hardware monitoring has spotted a change - A hardware component of the appliance is not functioning correctly
+210070805,The appliance hardware monitoring has spotted a change - A hardware component of the appliance is in a critical state
+210100,Update progress
+210100317,Update progress - Start updating from a local file
+210100318,Update progress - Start updating from a network server
+210100319,Update progress - Attempting to fetch a file
+210100320,Update progress - File fetched successfully
+210100321,Update progress - Unable to fetch file
+210100322,Update progress - File fetched was not as expected
+210100323,Update progress - File has bad content
+210100324,Update progress - Test install failed
+210100343,Update progress - Unable to install new engine
+210100344,Update progress - Unable to install new DATs/rules
+210100341,Update progress - Successfully updated engine
+210100342,Update progress - Successfully updated DATs/rules
+210100327,Update progress - Appliance already up-to-date
+210100729,Update progress - DATs/rules update failed
+210100730,Update progress - Waiting for DATs/rules update server response
+210100731,Update progress - Downloading DATs/rules from server
+210100732,Update progress - Applying downloaded DATs/rules changes
+210100733,Update progress - Reloading new DATs/rules
+210100734,Update progress - Unspecified DATs/rules update progress
+210100325,Update progress - Waiting to retry
+210100391,Update progress - A system command failed
+210100388,Update progress - Installed ExtraDAT file
+210100389,Update progress - Removed ExtraDAT file
+210100390,Update progress - No file given
+210100381,Update progress - RPM contained unacceptable files
+210100382,Update progress - RPM package contained unacceptable scripts
+210100383,Update progress - File supplied is not a well formed RPM package
+210100384,Update progress - RPM package conflicts with existing files
+210100385,Update progress - RPM package conflict
+210100386,Update progress - Added extra rules RPM package
+210100387,Update progress - Removed extra rules RPM package
+210101,Anti-virus update has made changes
+210101326,Anti-virus update has made changes - Successfully updated engine and DATs/rules
+210101341,Anti-virus update has made changes - Successfully updated engine
+210101342,Anti-virus update has made changes - Successfully updated DATs/rules
+210101388,Anti-virus update has made changes - Installed ExtraDAT file
+210101389,Anti-virus update has made changes - Removed ExtraDAT file
+210102,Anti-virus update. No change
+210102327,Anti-virus update. No change - Appliance already up-to-date
+210103,Anti-virus update failed
+210103321,Anti-virus update failed - Unable to fetch file
+210103322,Anti-virus update failed - File fetched was not as expected
+210103323,Anti-virus update failed - File has bad content
+210103324,Anti-virus update failed - Test install failed
+210103343,Anti-virus update failed - Unable to install new engine
+210103344,Anti-virus update failed - Unable to install new DATs/rules
+210103391,Anti-virus update failed - A system command failed
+210103784,Anti-virus update failed - Failed due to error in network connection
+210104,Anti-virus update interrupted
+210111,Anti-spam engine update has made changes
+210111326,Anti-spam engine update has made changes - Successfully updated engine and DATs/rules
+210111341,Anti-spam engine update has made changes - Successfully updated engine
+210111342,Anti-spam engine update has made changes - Successfully updated DATs/rules
+210111386,Anti-spam engine update has made changes - Added extra rules RPM package
+210111387,Anti-spam engine update has made changes - Removed extra rules RPM package
+210112,Anti-spam engine update. No change
+210112327,Anti-spam engine update. No change - Appliance already up-to-date
+210113,Anti-spam engine update failed
+210113321,Anti-spam engine update failed - Unable to fetch file
+210113322,Anti-spam engine update failed - File fetched was not as expected
+210113323,Anti-spam engine update failed - File has bad content
+210113324,Anti-spam engine update failed - Test install failed
+210113343,Anti-spam engine update failed - Unable to install new engine
+210113390,Anti-spam engine update failed - No file given
+210113903,Anti-spam engine update failed - Spam enginge install failed
+210113381,Anti-spam engine update failed - RPM contained unacceptable files
+210113382,Anti-spam engine update failed - RPM package contained unacceptable scripts
+210113383,Anti-spam engine update failed - File supplied is not a well formed RPM package
+210113384,Anti-spam engine update failed - RPM package conflicts with existing files
+210113385,Anti-spam engine update failed - RPM package conflict
+210113391,Anti-spam engine update failed - A system command failed
+210114,Anti-spam engine update interrupted
+210121,Anti-spam rules update made changes
+210121342,Anti-spam rules update made changes - Successfully updated DATs/rules
+210122,Anti-spam rules update. No change
+210122327,Anti-spam rules update. No change - Appliance already up-to-date
+210122902,Anti-spam rules update. No change - No new update
+210122632,Anti-spam rules update. No change - Another process is already handling this task
+210123,Anti-spam rules update failed
+210123344,Anti-spam rules update failed - Unable to install new DATs/rules
+210123729,Anti-spam rules update failed - DATs/rules update failed
+210124,Anti-spam rules update interrupted
+210125,Anti-spam rules update succeeded after a series of failures
+210125342,Anti-spam rules update succeeded after a series of failures - Successfully updated DATs/rules
+210125327,Anti-spam rules update succeeded after a series of failures - Appliance already up-to-date
+210126,Anti-spam update failing repeatedly
+210126729,Anti-spam update failing repeatedly - DATs/rules update failed
+210200,Anti-spam installation status
+210200330,Anti-spam installation status - Installed
+210200331,Anti-spam installation status - Evaluation period started
+210200332,Anti-spam installation status - Evaluation period expired
+210200333,Anti-spam installation status - End of evaluation period approaching
+210200334,Anti-spam installation status - Uninstalled
+210201,URL reputation installation status
+210201330,URL reputation installation status - Installed
+210201331,URL reputation installation status - Evaluation period started
+210201332,URL reputation installation status - Evaluation period expired
+210201333,URL reputation installation status - End of evaluation period approaching
+210201334,URL reputation installation status - Uninstalled
+210202,Email compliance installation status
+210202330,Email compliance installation status - Installed
+210202331,Email compliance installation status - Evaluation period started
+210202332,Email compliance installation status - Evaluation period expired
+210202333,Email compliance installation status - End of evaluation period approaching
+210202334,Email compliance installation status - Uninstalled
+210203,Data Loss Prevention (DLP) installation status
+210203330,Data Loss Prevention (DLP) installation status - Installed
+210203331,Data Loss Prevention (DLP) installation status - Evaluation period started
+210203332,Data Loss Prevention (DLP) installation status - Evaluation period expired
+210203333,Data Loss Prevention (DLP) installation status - End of evaluation period approaching
+210203334,Data Loss Prevention (DLP) installation status - Uninstalled
+210204,Avira installation status
+210204330,Avira installation status - Installed
+210204331,Avira installation status - Evaluation period started
+210204332,Avira installation status - Evaluation period expired
+210204333,Avira installation status - End of evaluation period approaching
+210204334,Avira installation status - Uninstalled
+210205,CommtouchÂ® Command installation status
+210205330,CommtouchÂ® Command installation status - Installed
+210205331,CommtouchÂ® Command installation status - Evaluation period started
+210205332,CommtouchÂ® Command installation status - Evaluation period expired
+210205333,CommtouchÂ® Command installation status - End of evaluation period approaching
+210205334,CommtouchÂ® Command installation status - Uninstalled
+210301,URL reputation database update made changes
+210301342,URL reputation database update made changes - Successfully updated DATs/rules
+210302,URL reputation database update. No change
+210302327,URL reputation database update. No change - Appliance already up-to-date
+210303,URL reputation database update failed
+210303620,URL reputation database update failed - Download of updates failed
+210303344,URL reputation database update failed - Unable to install new DATs/rules
+210303621,URL reputation database update failed - Informational message from update
+210303622,URL reputation database update failed - Warning message from update
+210303391,URL reputation database update failed - A system command failed
+210304,URL reputation database update interrupted
+210305,URL reputation database update information
+210305621,URL reputation database update information - Informational message from update
+210305622,URL reputation database update information - Warning message from update
+210400,Gateway evaluation status
+210400332,Gateway evaluation status - Evaluation period expired
+210400333,Gateway evaluation status - End of evaluation period approaching
+210500,Package update
+210500633,Package update - Package downloaded
+210500634,Package update - Unable to download package
+210500635,Package update - Package installed
+210500636,Package update - Unable to install package
+210501,Package update. Critical package available
+210502,Package update. Recommended package available
+210503,Package update. Package available
+210600,Secure shell (SSH) configuration changed
+210600637,Secure shell (SSH) configuration changed - Enabled
+210600638,Secure shell (SSH) configuration changed - Disabled
+210700,Appliance SNMP heartbeat
+210800,Data Loss Prevention (DLP) update
+210800691,Data Loss Prevention (DLP) update - The DLP database has been updated
+210800694,Data Loss Prevention (DLP) update - The DLP database update has started
+210800690,Data Loss Prevention (DLP) update - The DLP database was replaced
+210800692,Data Loss Prevention (DLP) update - The DLP database was cleared
+210801,Data Loss Prevention (DLP) Classification change
+210801695,Data Loss Prevention (DLP) Classification change - A classification has been added
+210801696,Data Loss Prevention (DLP) Classification change - A classification has been removed
+210802,Data Loss Prevention (DLP) database update failed
+210802693,Data Loss Prevention (DLP) database update failed - The DLP database update failed
+210802798,Data Loss Prevention (DLP) database update failed - DLP is not enabled
+210803,Data Loss Prevention (DLP) master database disk space is low
+210803693,Data Loss Prevention (DLP) master database disk space is low - The DLP database update failed
+210804,ePO policy enforced
+210804792,ePO policy enforced - Config applied
+210805,ePO policy unchanged
+210805327,ePO policy unchanged - Appliance already up-to-date
+210806,ePO policy enforcement failed
+210806793,ePO policy enforcement failed - Could not create session for config apply
+210806795,ePO policy enforcement failed - Session configuration directory missing
+210806796,ePO policy enforcement failed - Cannot create temporary files/directories for ePO policy push
+210806797,ePO policy enforcement failed - Policy push from ePO not enabled
+210806794,ePO policy enforcement failed - Session configuration directory missing
+210806799,ePO policy enforcement failed - Configuration received from ePO is not compatible
+210806848,ePO policy enforcement failed - McAfee SaaS Email Protection Service client certificate invalid
+210806905,ePO policy enforcement failed - Configuration received from ePO is incomplete
+210807,ePO policy enforced with warnings
+210807792,ePO policy enforced with warnings - Config applied
+800000,Event s were lost due to system overloading
+800001,Event queue has recovered
+800002,Event s failed to be delivered via the network
+900000,Execution trace
+900001,Dummy high severity debug event
+900002,Logs from,McAfee GTI message reputation
+900002768,Logs from,McAfee GTI message reputation - Log Everything passed on by,McAfee GTI message reputation if enabled
+990000,An unhandled exception occurred
+990001,Gateway application has failed
+990001525,Gateway application has failed - The application has had a segmentation violation
+990001526,Gateway application has failed - The application has had a process abort signal
+220000,User logon
+220000354,User logon - Logon successful
+220000355,User logon - Logon failed
+220001,User logoff
+220001356,User logoff - The user logged off
+220001357,User logoff - The session has expired
+220002,Appliance has been rebooted or stopped
+220002358,Appliance has been rebooted or stopped - The appliance has been stopped
+220002359,Appliance has been rebooted or stopped - The appliance has been rebooted
+220003,Appliance date changed
+220003360,Appliance date changed - Date change successful
+220004,Password changed
+220004361,Password changed - Password change successful
+220005,Logs saved
+220005362,Logs saved - The logs have been saved
+220006,Appliance configuration saved
+220006363,Appliance configuration saved - The appliance's configuration files have been saved
+220006906,Appliance configuration saved - The appliance's certificate files have been saved
+220007,User interface started
+220007364,User interface started - The user interface backend has started
+220008,User interface stopped
+220008365,User interface stopped - The user interface backend has stopped
+220009,Applying new configuration
+220010,Finished applying new configuration
+220011,Configuration changed
+220012,User accounts/roles modified
+220012738,User accounts/roles modified - User added
+220012739,User accounts/roles modified - User modified
+220012740,User accounts/roles modified - User removed
+220012741,User accounts/roles modified - User role added
+220012742,User accounts/roles modified - User role modified
+220012743,User accounts/roles modified - User role removed
+220050,SSL error when accessing the user interface
+220050831,SSL error when accessing the user interface - SSL/TLS error in the httpd daemon
+220051,SSL connection state changed
+220051832,SSL connection state changed - SSL/TLS connection established
+220051833,SSL connection state changed - SSL/TLS connection closed
+220070,Email Hybrid provisioning successful
+220070845,Email Hybrid provisioning successful - Registration with the McAfee SaaS Email Protection Service succeeded
+220071,Email Hybrid provisioning failed
+220071846,Email Hybrid provisioning failed - Registration with the McAfee SaaS Email Protection Service failed
+220072,Email Hybrid deprovisioned
+220072847,Email Hybrid deprovisioned - Unregistered from the McAfee SaaS Email Protection Service
+220100,User blacklist & whitelist updated
+220100592,User blacklist & whitelist updated - A local copy of the user blacklists & whitelists has been taken
+220100591,User blacklist & whitelist updated - Unable to take a local copy of the user blacklists & whitelists
+220100593,User blacklist & whitelist updated - An error occurred obtaining user blacklist & whitelist XML data
+220150,Configuration back up
+220150785,Configuration back up - Backup failed
+220150786,Configuration back up - Backup successful
+220160,Log to file archival
+220160785,Log to file archival - Backup failed
+220160786,Log to file archival - Backup successful
+220180,User has viewed an audit trail
+220180810,User has viewed an audit trail - Email report generated
+220180811,User has viewed an audit trail - System report generated
+220180812,User has viewed an audit trail - Scheduled report generated
+220180813,User has viewed an audit trail - Configuration change log generated
+220210,Quarantine digests
+220210512,Quarantine digests - Digest generation started
+220210511,Quarantine digests - Unable to generate the email digest
+220210510,Quarantine digests - An email digest has been generated
+220210513,Quarantine digests - Digest generation was successful
+220210515,Quarantine digests - A digest generator is already running
+220210514,Quarantine digests - Digest generation failed
+230000,Failed to transfer data from the McAfee Quarantine Manager server
+230000598,Failed to transfer data from the McAfee Quarantine Manager server - Unable to create a file on disk
+23000074,Failed to transfer data from the McAfee Quarantine Manager server - Reading data from the network
+230000203,Failed to transfer data from the McAfee Quarantine Manager server - Unable to write file to disk
+230000107,Failed to transfer data from the McAfee Quarantine Manager server - Creation of an object has failed
+230001,Failed to connect to the McAfee Quarantine Manager server
+230001599,Failed to connect to the McAfee Quarantine Manager server - Unable to bind
+230001600,Failed to connect to the McAfee Quarantine Manager server - Unable to initialize the McAfee Quarantine Manager client
+230002,Failed to transfer data to the McAfee Quarantine Manager server
+230002601,Failed to transfer data to the McAfee Quarantine Manager server - Unable to store the email
+230002602,Failed to transfer data to the McAfee Quarantine Manager server - Email deleted after exceeding maximum retry period
+230003,Failed to update the local blacklist and whitelist database from McAfee Quarantine Manager
+230003630,Failed to update the local blacklist and whitelist database from McAfee Quarantine Manager - Unable to import the blacklists and whitelists into an  LDAP repository
+230004,Successful update of the local blacklist and whitelist database from McAfee Quarantine Manager

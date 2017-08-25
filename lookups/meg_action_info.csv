@@ -1,0 +1,7 @@
+meg_action,action,meg_action_description
+ESERVICES:REPLACE,quarantined
+ESERVICES:ALLOWTHRU,delivered
+WEBSHIELD:REFUSEORIGINAL,blocked
+WEBSHIELD:ACCEPTANDDROP,deleted
+WEBSHIELD:DENYCONNECTION,blocked
+WEBSHIELD:REROUTE,blocked
