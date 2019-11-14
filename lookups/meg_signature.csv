@@ -1139,8 +1139,8 @@ signature_id,signature
 377-800002,Event s failed to be delivered via the network
 377-900000,Execution trace
 377-900001,Dummy high severity debug event
-377-900002,Logs from,McAfee GTI message reputation
-377-900002768,Logs from,McAfee GTI message reputation - Log Everything passed on by,McAfee GTI message reputation if enabled
+377-900002,Logs from McAfee GTI message reputation
+377-900002768,Logs from McAfee GTI message reputation - Log Everything passed on by McAfee GTI message reputation if enabled
 377-990000,An unhandled exception occurred
 377-990001,Gateway application has failed
 377-990001525,Gateway application has failed - The application has had a segmentation violation

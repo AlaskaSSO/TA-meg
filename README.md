@@ -24,6 +24,9 @@ Because of the many formats supported the props and transforms are a little bit 
 Request: Please send me sample logs which I can test with!  Some redacted sample logs I have collected are in the samples directory.
 
 CHANGELOG: 
+Version 0.8.2
+Fixed CSV for AppInspect compatibility
+
 Version 0.8.1
 release under the CC BY-SA 3.0 license
 
